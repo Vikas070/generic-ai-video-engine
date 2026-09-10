@@ -1,33 +1,47 @@
 ---
 name: make-ai-short
-description: Build a GENERATIVE-pixels vertical short (1080×1920, ~35-40s) end-to-end — a recurring locked character animated by a fal video model (Seedance 1.5 Pro default) under a philosophical/story VO, composited in Remotion with word-synced captions, SFX audition, seamless frame-0==last-frame loop. Use when the user wants to "make an AI video short", "make an ai short", "make a blue-man video", or any short where the pixels come from a VIDEO MODEL — not TSX animation (that is make-short) and not layered collage (that is make-vox). Defers model choice re-litigating to ai-shorts/IDEAS.md, TSX crash rules to vidtsx-2d-generator, SFX taste to suggest-sfx + brand §7.
+description: Build a GENERATIVE-pixels vertical short (1080×1920, ~35-40s) end-to-end for ANY genre or subject — a recurring locked character, product, or visual style animated by a video model (fal's model roster, or official Veo via the Gemini API, or a manually-ingested Google Flow export), composited in Remotion with word-synced captions, SFX audition, seamless frame-0==last-frame loop. Use when the user wants to "make an AI video short", "make an ai short", "make a blue-man video", or any short where the pixels come from a VIDEO MODEL — not TSX animation (that is make-short), not layered collage (that is make-vox), and not a MIX of engines in one video (that is make-video). Defers provider/model choice to ai-shorts/PROVIDERS.md (+ IDEAS.md for the blue-man build log), TSX crash rules to vidtsx-2d-generator, SFX taste to suggest-sfx + brand §7.
 ---
 
 # make-ai-short — generative shorts, end to end
 
 The pixels come from a video model; Remotion only composites clips + captions. Proven on
-blue-man #1 "The Door". Sibling of `/make-short` (100% TSX) — same discipline, plus three
-gates TSX never needed: **cost stated before generating**, **character locked from
-character.json**, **loop pinned via end-frame conditioning**.
+blue-man #1 "The Door" (philosophical VO — one example subject, not a constraint: this track
+works identically for a comedy sketch, a product demo, a motivational reel, or any other genre
+the request calls for). Sibling of `/make-short` (100% TSX) — same discipline, plus three gates
+TSX never needed: **cost stated before generating**, **subject locked from character.json**,
+**loop pinned via end-frame conditioning**.
 
-Run everything from the repo root. Needs `FAL_KEY` (clips + images) and `ELEVENLABS_API_KEY`
-(voice) in `.env`.
+Run everything from the repo root. Needs `ELEVENLABS_API_KEY` (voice) always, plus whichever
+provider key the chosen model needs — `FAL_KEY` for fal models, `GEMINI_API_KEY` for official
+Veo (`tools/gen_veo.py`) and for images (`tools/gen_image.py`). A manually-ingested Google Flow
+export (`tools/ingest_flow_asset.py`) needs no key at all. See `ai-shorts/PROVIDERS.md` for the
+full provider comparison and how to pick one.
 
-## The three iron rules
+## The three iron rules (provider-agnostic — apply to fal, official Veo, and Flow alike)
 
-1. **NEVER generate a character from text twice.** `ai-shorts/<char>/character.json` +
-   `character.png` is the locked reference. Every still that needs the character is
-   `gen_image.py --ref character.png`; every clip is image-to-video from a frame that already
-   contains him. If a character sheet doesn't exist yet, making ONE (and getting the user's
-   eye on it) is its own step before anything else.
-2. **STATE THE COST BEFORE SPENDING IT.** Derived, not quoted: Seedance 1080p audio-off =
-   `h×w×24×dur/1024` tokens × $1.2/1M ≈ **$0.0583/s** (fal pricing API validated 2026-07-14 —
-   see ai-shorts/IDEAS.md for the full table + the Wan/Veo-Lite traps). Always
-   `generate_audio:false` — voice is ElevenLabs, sound is our SFX pipeline.
-3. **Loop by CONSTRAINT, not luck.** Shot 1's true frame 0 (extracted from the clip, not the
-   prompt image) is the loop target. The final shot passes it as `end_image_url`
-   (Seedance/Kling), and the composition settles onto that exact still over the last ~10
-   frames (`LoopSettle` pattern in `remotion/src/shots/ai-1/Ai1Door.tsx`).
+1. **NEVER generate a locked subject from text twice.** `ai-shorts/<name>/character.json` +
+   its reference image is the locked reference (the schema generalizes past "character" — a
+   product, mascot, or location works identically). Every still that needs it is
+   `gen_image.py --ref <reference.png>`; every clip is image-to-video from a frame that already
+   contains it, via whichever provider's start-frame/reference mechanism (`--ref` on
+   `gen_clip.py`/`gen_veo.py`, or a Flow "ingredient" you drove by hand before exporting). If a
+   reference sheet doesn't exist yet, making ONE (and getting the user's eye on it) is its own
+   step before anything else.
+2. **STATE THE COST BEFORE SPENDING IT.** Derived, not quoted, and re-verified this session —
+   pricing moves. `tools/gen_clip.py`/`bakeoff_clip.py` (fal) and `tools/gen_veo.py` (official
+   Veo) both print the derived cost before any API call. Full tables + the traps already found
+   (Wan's resolution tiers, Veo-Lite-vs-Fast, fal-vs-official-Veo pricing) live in
+   `ai-shorts/PROVIDERS.md`. On any provider with the knob, `generate_audio:false` — voice is
+   ElevenLabs, sound is our SFX pipeline. (Flow has no per-call $ cost — it's credits/subscription;
+   record spend with `ingest_flow_asset.py --credits N` if you track it.)
+3. **Loop by CONSTRAINT, not luck.** The first shot's true frame 0 (extracted from the clip, not
+   the prompt image) is the loop target. The final shot passes it as the provider's end-frame
+   input — `end_image_url` (fal Seedance), `tail_image_url` (fal Kling), `--last-frame` (official
+   Veo), or a frame you feed back into Flow's UI by hand — and the composition settles onto that
+   exact still over the last ~10 frames (`LoopSettle` pattern in
+   `remotion/src/shots/ai-1/Ai1Door.tsx`; the same pattern generalizes to any engine via
+   `loopSettleScene()` in `remotion/src/lib/hybrid.tsx` for hybrid productions).
 
 ## Artifact contract
 

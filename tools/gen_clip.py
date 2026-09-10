@@ -151,7 +151,8 @@ def main():
 
     sidecar = os.path.splitext(out)[0] + ".json"
     with open(sidecar, "w", encoding="utf-8") as f:
-        json.dump({"model": model, "payload": payload, "request_id": sub.get("request_id"),
+        json.dump({"provider": "fal", "model": model, "payload": payload,
+                   "request_id": sub.get("request_id"),
                    "source_url": url, "created": time.strftime("%Y-%m-%dT%H:%M:%S")},
                   f, indent=2, ensure_ascii=False)
         f.write("\n")

@@ -1,17 +1,22 @@
 # claude-faceless-shorts-creator
 
-**A faceless YouTube-Shorts factory you drive with [Claude Code](https://claude.com/claude-code).**
-Three production tracks in one repo — you just describe the video, and the right pipeline runs:
+**A genre-agnostic AI video production engine you drive with [Claude Code](https://claude.com/claude-code).**
+Four production tracks in one repo — you just describe the video (any genre: educational,
+documentary, comedy, product, motivational, storytelling, cinematic, whatever), and the right
+pipeline runs:
 
 | You say… | Track | The pixels |
 |---|---|---|
 | *"make a short about the ×11 trick"* | **TSX** (`/make-short`) | 100% code — a [Remotion](https://remotion.dev) composition, no footage, no stock |
-| *"make an AI video short with blue-man"* | **Generative** (`/make-ai-short`) | a fal video model animating a **locked recurring character** |
+| *"make an AI video short with blue-man"* | **Generative** (`/make-ai-short`) | a video model — **fal**, **official Veo (Gemini API)**, or a manually-ingested **Google Flow** export — animating a **locked recurring subject** |
 | *"make a vox-style short about coffee"* | **Collage** (`/make-vox`) | Vox-documentary paper collage — AI-image layers, die-cuts, a traveling camera |
+| *"make a product video that mixes real AI footage with an animated chart"* | **Hybrid** (`/make-video`) | whichever engine each beat needs, composited on one timeline |
 
 Every track shares the same backbone: ElevenLabs voice with **word-exact synced captions**,
 frame-by-frame QA at phone scale, a reusable self-growing SFX/music library, seamless
-frame-0==last-frame loops, and no dated engagement-CTA outros.
+frame-0==last-frame loops, and no dated engagement-CTA outros. AI-video generation is
+**provider-agnostic** — swap fal / official Veo / a manually-ingested Flow clip per shot without
+touching the composition; see [`ai-shorts/PROVIDERS.md`](ai-shorts/PROVIDERS.md).
 
 ## 📖 Read the guide
 
@@ -95,7 +100,9 @@ brand and every future short follows it.
 
 Requirements: [Claude Code](https://claude.com/claude-code) · Node 18+ · Python 3.10+ ·
 `ffmpeg` on PATH · an [ElevenLabs](https://elevenlabs.io) key (voice/SFX/music). For the
-generative track add a [fal.ai](https://fal.ai) key; for collage layer production:
+generative track add a [fal.ai](https://fal.ai) key and/or a [Gemini](https://ai.google.dev)
+key (official Veo + images — same key does both, `google-genai` SDK); a manually-ingested
+Google Flow clip needs no key at all. For collage layer production:
 `pip install pillow rembg playwright && playwright install chromium` (the only pip installs
 in the repo — everything else is stdlib).
 
@@ -109,7 +116,7 @@ claude                        # open the repo in Claude Code, then:
 ```
 
 > **make a short about &lt;your topic&gt;** · **make an AI video short about &lt;idea&gt;** ·
-> **make a vox-style short about &lt;story&gt;**
+> **make a vox-style short about &lt;story&gt;** · **make a video about &lt;anything else&gt;**
 
 …or rebuild an example: *"re-render short-5 and regenerate its voice"*.
 
@@ -118,16 +125,19 @@ To just explore the compositions visually: `cd remotion && npm run studio`.
 ## Repo layout
 
 ```
-.claude/skills/   the five skills (this is where the "editor" lives)
+.claude/skills/   the six skills (this is where the "editor" lives)
 tools/            Python: gen_voice, gen_sfx, gen_music, mix_sfx, mix_music, gen_image,
-                  gen_clip, bakeoff_clip, cutout, capture_web, gen_chords
-remotion/         the Remotion project — shared kits in src/lib/ (incl. collage.tsx),
-                  one folder per video in src/shots/
+                  gen_clip (fal), gen_veo (official Veo/Gemini API), ingest_flow_asset
+                  (manual Google Flow), bakeoff_clip, cutout, capture_web, gen_chords
+remotion/         the Remotion project — shared kits in src/lib/ (incl. collage.tsx, hybrid.tsx
+                  for multi-engine compositions), one folder per video in src/shots/
 media/library/    reusable assets: SFX clips + music beds (catalogued, loudness-normalized)
 media/projects/   media for one specific video — incl. committed AI clips & collage layers
 shorts/           the 12 TSX example productions
-ai-shorts/        the generative track: blue-man/ (locked character) + IDEAS.md (cost tables)
+ai-shorts/        the generative track: blue-man/ (locked character) + PROVIDERS.md (the
+                  fal/Veo/Flow provider contract) + IDEAS.md (cost tables, build log)
 vox-shorts/       the collage track: vox-1-coffee/ + DESIGN.md (the visual language)
+videos/           hybrid/genre-first productions that mix engines — see /make-video
 brand.md          the style contract — make it yours
 IDEAS.md          the TSX-shorts niche/idea bank
 ```
