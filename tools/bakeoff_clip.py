@@ -409,7 +409,7 @@ def main():
         billed = actual.get(p["spec"]["endpoint"])
         cost_label = (f"${billed:.3f} billed" if billed is not None
                       else f"${p['cost']:.3f} est")
-        meta = {"model": p["spec"]["endpoint"], "payload": p["payload"],
+        meta = {"provider": "fal", "model": p["spec"]["endpoint"], "payload": p["payload"],
                 "request_id": r.get("request_id"), "source_url": r.get("source_url"),
                 "derived_cost_usd": round(p["cost"], 4), "billed_cost_usd": billed,
                 "elapsed_s": r.get("elapsed"), "error": r.get("error"),
