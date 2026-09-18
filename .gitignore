@@ -20,11 +20,67 @@ vox-shorts/*/output/
 videos/*/voice/
 videos/*/output/
 
-# ai-shorts working copies of generated clips — the canonical (committed) copies
-# live in media/projects/<name>/ where the composition reads them via staticFile()
-ai-shorts/*/shots/*.mp4
-ai-shorts/*/bakeoff/*.mp4
-videos/*/shots/*.mp4
+# generated media binaries: images/video/audio produced by the pipeline
+# (AI clips, rendered frames, voice lines, sfx/music). Kept out of git so only
+# the authoring files (*.json, *.md — script, beats, character/DESIGN docs,
+# sidecars) are versioned; the pixels/audio themselves live on local disk only.
+# NOTE: this includes locked character/vox-layer reference images — a fresh
+# clone will NOT have them, so a locked subject can't be reproduced from the
+# text alone (back those up yourself if you want to keep reusing them).
+shorts/**/*.png
+shorts/**/*.jpg
+shorts/**/*.jpeg
+shorts/**/*.webp
+shorts/**/*.gif
+shorts/**/*.mp4
+shorts/**/*.mov
+shorts/**/*.mp3
+shorts/**/*.wav
+ai-shorts/**/*.png
+ai-shorts/**/*.jpg
+ai-shorts/**/*.jpeg
+ai-shorts/**/*.webp
+ai-shorts/**/*.gif
+ai-shorts/**/*.mp4
+ai-shorts/**/*.mov
+ai-shorts/**/*.mp3
+ai-shorts/**/*.wav
+vox-shorts/**/*.png
+vox-shorts/**/*.jpg
+vox-shorts/**/*.jpeg
+vox-shorts/**/*.webp
+vox-shorts/**/*.gif
+vox-shorts/**/*.mp4
+vox-shorts/**/*.mov
+vox-shorts/**/*.mp3
+vox-shorts/**/*.wav
+videos/**/*.png
+videos/**/*.jpg
+videos/**/*.jpeg
+videos/**/*.webp
+videos/**/*.gif
+videos/**/*.mp4
+videos/**/*.mov
+videos/**/*.mp3
+videos/**/*.wav
+media/projects/**/*.png
+media/projects/**/*.jpg
+media/projects/**/*.jpeg
+media/projects/**/*.webp
+media/projects/**/*.gif
+media/projects/**/*.mp4
+media/projects/**/*.mov
+media/projects/**/*.mp3
+media/projects/**/*.wav
+media/library/**/*.png
+media/library/**/*.jpg
+media/library/**/*.jpeg
+media/library/**/*.webp
+media/library/**/*.gif
+media/library/**/*.mp4
+media/library/**/*.mov
+media/library/**/*.mp3
+media/library/**/*.wav
 
 # local editor config
 .vscode/
