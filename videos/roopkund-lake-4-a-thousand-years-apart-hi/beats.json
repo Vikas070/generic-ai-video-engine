@@ -1,0 +1,201 @@
+{
+  "id": "roopkund-lake-4-a-thousand-years-apart-hi",
+  "title": "एक हज़ार साल अलग (A Thousand Years Apart - Hindi)",
+  "series": "roopkund-lake",
+  "part": 4,
+  "partsTotal": 5,
+  "lang": "hi",
+  "channel": "@TheMidnightThrillers",
+  "composition": "RoopkundEp4AThousandYearsApartHi",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 67.2
+  },
+  "notes": "Hindi dub of roopkund-lake-4-a-thousand-years-apart -- same visuals/beats, narration translated and re-voiced with the locked George voice (elevenlabs:JBFqnCBsd6RMkjVDRZzb) via eleven_multilingual_v2. Windows start as the English track's real fitted timings; gen_voice.py re-fits against Hindi speech pacing and this file's vo[]/beats[] are retimed if any line overflows.",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6702210/",
+    "https://www.nature.com/articles/s41467-019-11357-9"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "सालों तक, यही मान्य जवाब था। फिर 2019 में, वैज्ञानिकों ने आख़िरकार इसकी जांच की।",
+      "tts": "सालों तक, यही मान्य जवाब था। फिर 2019 में, वैज्ञानिकों ने आख़िरकार इसकी जांच की।",
+      "start": 0.0,
+      "end": 6.17
+    },
+    {
+      "beat": "recap-test",
+      "text": "वे रूपकुंड लौटे एक ऐसी चीज़ के साथ जो पहले की किसी रिपोर्ट में कभी नहीं थी — प्राचीन डीएनए।",
+      "tts": "वे रूपकुंड लौटे एक ऐसी चीज़ के साथ जो पहले की किसी रिपोर्ट में कभी नहीं थी — प्राचीन डीएनए।",
+      "start": 6.2,
+      "end": 11.66
+    },
+    {
+      "beat": "dna-lab",
+      "text": "आनुवंशिक सामग्री, अड़तीस कंकालों से खुद निकाली गई।",
+      "tts": "आनुवंशिक सामग्री, अड़तीस कंकालों से खुद निकाली गई।",
+      "start": 11.7,
+      "end": 15.26
+    },
+    {
+      "beat": "genetic-groups",
+      "text": "नतीजों ने उन्हें तीन अलग आनुवंशिक समूहों में बांट दिया। एक कहानी नहीं — तीन।",
+      "tts": "नतीजों ने उन्हें तीन अलग आनुवंशिक समूहों में बांट दिया। एक कहानी नहीं — तीन।",
+      "start": 15.3,
+      "end": 20.76
+    },
+    {
+      "beat": "group-a",
+      "text": "उनमें से तेईस में दक्षिण एशिया भर की वंशावली थी — बिल्कुल वही जिसकी सबको उम्मीद थी।",
+      "tts": "उनमें से तेईस में दक्षिण एशिया भर की वंशावली थी — बिल्कुल वही जिसकी सबको उम्मीद थी।",
+      "start": 20.8,
+      "end": 25.85
+    },
+    {
+      "beat": "group-b",
+      "text": "लेकिन चौदह और बिल्कुल कुछ और थे — वंशावली सबसे क़रीब भूमध्यसागर के क्रीट द्वीप पर रहने वाले लोगों से।",
+      "tts": "लेकिन चौदह और बिल्कुल कुछ और थे — वंशावली सबसे क़रीब भूमध्यसागर के क्रीट द्वीप पर रहने वाले लोगों से।",
+      "start": 25.9,
+      "end": 32.46
+    },
+    {
+      "beat": "group-c",
+      "text": "एक और भी, दक्षिण-पूर्व एशिया से, उनके साथ यात्रा करता हुआ।",
+      "tts": "एक और भी, दक्षिण-पूर्व एशिया से, उनके साथ यात्रा करता हुआ।",
+      "start": 32.5,
+      "end": 36.06
+    },
+    {
+      "beat": "wound",
+      "text": "अलग महाद्वीप। अलग सदियां, तक। बिल्कुल एक जैसा घातक घाव।",
+      "tts": "अलग महाद्वीप। अलग सदियां, तक। बिल्कुल एक जैसा घातक घाव।",
+      "start": 36.1,
+      "end": 41.25
+    },
+    {
+      "beat": "second-storm",
+      "text": "रेडियोकार्बन डेटिंग ने दोनों समूहों को लगभग एक हज़ार साल अलग रखा — और वही घातक जाल दोनों का इंतज़ार कर रहा था।",
+      "tts": "रेडियोकार्बन डेटिंग ने दोनों समूहों को लगभग एक हज़ार साल अलग रखा — और वही घातक जाल दोनों का इंतज़ार कर रहा था।",
+      "start": 41.3,
+      "end": 48.9
+    },
+    {
+      "beat": "mystery-why",
+      "text": "भूमध्यसागर का एक समूह सदियों बाद ठीक इसी हिमालयी झील में क्यों मरा — जिन वैज्ञानिकों ने यह खोजा, वे आज भी नहीं बता सकते।",
+      "tts": "भूमध्यसागर का एक समूह सदियों बाद ठीक इसी हिमालयी झील में क्यों मरा — जिन वैज्ञानिकों ने यह खोजा, वे आज भी नहीं बता सकते।",
+      "start": 49.0,
+      "end": 57.72
+    },
+    {
+      "beat": "cliffhanger",
+      "text": "तीर्थयात्री। यात्री। बिल्कुल कुछ और। वे वहां क्या कर रहे थे? जानिए भाग 5 में।",
+      "tts": "तीर्थयात्री। यात्री। बिल्कुल कुछ और। वे वहां क्या कर रहे थे? जानिए भाग 5 में।",
+      "start": 57.8,
+      "end": 65.79
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "image",
+      "start_s": 0,
+      "end_s": 6.2,
+      "prompt": "A small ancient bone fragment sealed inside a clear glass lab sample vial, resting on a dark tray, dramatic focused side lighting, Himalayan snow peaks softly blurred through a window in the background, moody clinical-meets-mountain atmosphere, hyperrealistic 8k cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-4-a-thousand-years-apart/01-hook.png",
+      "variant": 0,
+      "note": "frame 0 fully composed -- this exact still is also the loop target (reused by beat 11's title card + tail), this episode's OWN hook, distinct from Parts 1-3's"
+    },
+    {
+      "id": "recap-test",
+      "engine": "image",
+      "start_s": 6.2,
+      "end_s": 11.7,
+      "still": "projects/roopkund-lake-3-who-were-they/09-leading-theory.png",
+      "variant": 2,
+      "note": "reuses Part 3's beat-9 leading-theory still with a different Ken Burns push-in variant (no second generation) -- bridges directly from Part 3's own cliffhanger line"
+    },
+    {
+      "id": "dna-lab",
+      "engine": "image",
+      "start_s": 11.7,
+      "end_s": 15.3,
+      "prompt": "Clinical genetics laboratory close-up: gloved hands extracting material from a small bone fragment into a sample tube, sterile overhead lighting, shallow depth of field, no face visible, documentary tone, 9:16",
+      "still": "projects/roopkund-lake-4-a-thousand-years-apart/03-dna-lab.png",
+      "variant": 0,
+      "note": "no depiction of any named scientist -- hands/instruments/specimens only"
+    },
+    {
+      "id": "genetic-groups",
+      "engine": "tsx",
+      "start_s": 15.3,
+      "end_s": 20.8,
+      "component": "RoopkundGeneticGroupsChart",
+      "note": "new lib/roopkund.tsx component -- three population bars (23/14/1) with ancestry labels, no faces, no editorial-rule risk"
+    },
+    {
+      "id": "group-a",
+      "engine": "image",
+      "start_s": 20.8,
+      "end_s": 25.9,
+      "prompt": "Wide cinematic shot of a terraced Himalayan valley and mountain village at dusk, warm scattered lights, snow peaks behind, no visible people, documentary photography, 9:16",
+      "still": "projects/roopkund-lake-4-a-thousand-years-apart/05-group-a.png",
+      "variant": 1
+    },
+    {
+      "id": "group-b",
+      "engine": "image",
+      "start_s": 25.9,
+      "end_s": 32.5,
+      "prompt": "Wide cinematic shot of a whitewashed Aegean coastal village perched on a cliff above the sea at dusk, warm lights, no visible people, documentary photography, 9:16",
+      "still": "projects/roopkund-lake-4-a-thousand-years-apart/06-group-b.png",
+      "variant": 0,
+      "note": "landscape-only, deliberately no human figures -- avoids implying a specific ethnic likeness for a real ancient population"
+    },
+    {
+      "id": "group-c",
+      "engine": "image",
+      "start_s": 32.5,
+      "end_s": 36.1,
+      "still": "projects/roopkund-lake-4-a-thousand-years-apart/06-group-b.png",
+      "variant": 3,
+      "note": "reuses beat 6's own still with a different Ken Burns push-in variant (no second generation)"
+    },
+    {
+      "id": "wound",
+      "engine": "image",
+      "start_s": 36.1,
+      "end_s": 41.3,
+      "still": "projects/roopkund-lake-1-lake-of-bones/08-wound.png",
+      "variant": 4,
+      "note": "reuses Part 1's beat-8 still (no second generation) -- the series' recurring visual-thread motif, reused again at this part's midpoint"
+    },
+    {
+      "id": "second-storm",
+      "engine": "tsx",
+      "start_s": 41.3,
+      "end_s": 49.0,
+      "component": "RoopkundTrapDiagram",
+      "note": "reuses Part 2's existing lib/roopkund.tsx component verbatim (no new TSX, no new cost) -- the same lethal terrain claims a second group centuries later"
+    },
+    {
+      "id": "mystery-why",
+      "engine": "image",
+      "start_s": 49.0,
+      "end_s": 57.8,
+      "prompt": "Calm, melancholy wide shot of a rocky Himalayan lakebed at blue dusk, low mist over the still water, snow peaks faint in the distance, no people, muted cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-4-a-thousand-years-apart/09-mystery-why.png",
+      "variant": 0
+    },
+    {
+      "id": "cliffhanger",
+      "engine": "tsx",
+      "start_s": 57.8,
+      "end_s": 67.2,
+      "component": "PartTitleCard",
+      "note": "bold title card over THIS episode's own hook still (projects/roopkund-lake-4-a-thousand-years-apart/01-hook.png); VO ends with a short silent tail so captions clear and the title fades before the loop point"
+    }
+  ]
+}

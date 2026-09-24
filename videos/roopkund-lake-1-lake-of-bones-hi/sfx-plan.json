@@ -1,0 +1,34 @@
+{
+  "master": "remotion/out/RoopkundEp1LakeOfBonesHi-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/RoopkundEp1LakeOfBonesHi-voiced.mp4",
+    "out": "videos/roopkund-lake-1-lake-of-bones-hi/output/roopkund-lake-1-hi-sfx.mp4",
+    "end_s": 61.5,
+    "duck": true
+  },
+  "events": [
+    { "at_s": 0.2,   "sfx_id": "wind-soft",        "gain_db": -6, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "hook: aerial Himalayan establishing shot", "note": "atmosphere bed under the hook VO -- felt not heard; same beat window as the English cut" },
+    { "at_s": 6.6,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: hook -> no-names (skull close-up)" },
+    { "at_s": 11.0,  "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: no-names -> discovery (ranger)" },
+    { "at_s": 15.7,  "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: discovery -> false-lead (wide bones)" },
+    { "at_s": 21.4,  "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: false-lead -> preserved (frozen flesh close-up)" },
+    { "at_s": 24.30, "sfx_id": "riser-soft",       "gain_db": 1,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'अजीब' / stranger (word start 24.299) builds into the tissue reveal", "note": "HERO 1 layer a -- retimed to the Hindi VO's word" },
+    { "at_s": 25.14, "sfx_id": "impact-soft",      "gain_db": 2,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'मांस, बाल...' / flesh, hair (word start 25.135) -- preserved-tissue reveal", "note": "HERO 1 layer b -- retimed to the Hindi VO's word" },
+    { "at_s": 28.9,  "sfx_id": "whoosh-wind",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: preserved -> scale (wide aerial opening up)" },
+    { "at_s": 31.99, "sfx_id": "riser-soft",       "gain_db": 1,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'यहां लगभग' / here, approximately (word start 31.988) builds into the 800 reveal", "note": "HERO 2 layer a -- retimed to the Hindi VO's word" },
+    { "at_s": 32.78, "sfx_id": "impact-deep-soft", "gain_db": 3,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'800' lands (word start 32.778) -- the big number reveal, same digit in the Hindi VO", "note": "HERO 2 layer b, biggest single stat of the part" },
+    { "at_s": 35.4,  "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: scale -> map (RoopkundMapZoom, tsx)" },
+    { "at_s": 36.2,  "sfx_id": "pop-reveal",       "gain_db": 4,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "map pin + 'Roopkund' label appears and locks on (RoopkundMapZoom pinP, ~0.8s into the beat)", "note": "TSX-animation-timed, not VO-word-timed -- unchanged from the English cut" },
+    { "at_s": 43.6,  "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: map -> wound (forensic skull motif)" },
+    { "at_s": 45.98, "sfx_id": "impact-soft",      "gain_db": 2,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'घाव' / wound lands (word start 45.980) -- forensic reveal", "note": "retimed to the Hindi VO's content word (the trailing 'है।' is grammatical, not the payload)" },
+    { "at_s": 47.50, "sfx_id": "ui-click-soft",    "gain_db": -6, "optional": true, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'छोटा।' / Short. clipped beat (word start 47.500)" },
+    { "at_s": 48.25, "sfx_id": "ui-click-soft",    "gain_db": -6, "optional": true, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'गहरा।' / Deep. clipped beat (word start 48.249)" },
+    { "at_s": 49.24, "sfx_id": "ui-click-soft",    "gain_db": -6, "optional": true, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'गोल।' / Round. clipped beat (word start 49.242)" },
+    { "at_s": 49.85, "sfx_id": "riser-soft",       "gain_db": 2,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "pause after 'गोल।' builds into the cause-of-death reveal", "note": "HERO 3 layer a -- retimed to the gap after the Hindi VO's third click word" },
+    { "at_s": 51.30, "sfx_id": "impact-deep-soft", "gain_db": 3,  "shot": "RoopkundEp1LakeOfBonesHi", "cue": "'वार।' / strike lands (word start 51.302) -- the part's central reveal", "note": "HERO 3 layer b, biggest hero beat of Part 1 -- retimed to the Hindi VO's payload word" },
+    { "at_s": 52.1,  "sfx_id": "whoosh-wind",      "gain_db": -3, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "cut: struck -> cliffhanger title card" },
+    { "at_s": 60.0,  "sfx_id": "wind-soft",        "gain_db": -8, "optional": true, "shot": "RoopkundEp1LakeOfBonesHi", "cue": "loop-settle: wind echoes the hook as it closes the loop", "note": "quiet bookend in the silent tail" }
+  ]
+}

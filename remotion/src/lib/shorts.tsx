@@ -69,7 +69,8 @@ export const Captions: React.FC<{
   accent?: string;
   maxWords?: number;
   plate?: boolean; // dark pill behind the words — for compositions with light scenes
-}> = ({ lines, y = 1280, size = 58, accent = '#f5d76e', maxWords = 4, plate = false }) => {
+  fontFamily?: string; // override FONT_DISPLAY — e.g. a script-specific font for non-Latin VO
+}> = ({ lines, y = 1280, size = 58, accent = '#f5d76e', maxWords = 4, plate = false, fontFamily = FONT_DISPLAY }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -116,7 +117,7 @@ export const Captions: React.FC<{
           <span
             key={i}
             style={{
-              fontFamily: FONT_DISPLAY,
+              fontFamily,
               fontWeight: 700,
               fontSize: size,
               lineHeight: 1.15,

@@ -1,0 +1,1017 @@
+{
+  "id": "roopkund-lake-1-lake-of-bones-hi",
+  "title": "हड्डियों की झील (The Lake of Bones - Hindi)",
+  "series": "roopkund-lake",
+  "part": 1,
+  "partsTotal": 5,
+  "lang": "hi",
+  "channel": "@TheMidnightThrillers",
+  "composition": "RoopkundEp1LakeOfBonesHi",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 61.5
+  },
+  "notes": "Hindi dub pilot of roopkund-lake-1-lake-of-bones -- same visuals/beats, narration translated and reo-voiced with the same locked George voice (elevenlabs:JBFqnCBsd6RMkjVDRZzb) via eleven_multilingual_v2. Windows start as the English track's real fitted timings; gen_voice.py will re-fit against Hindi speech pacing and this file's vo[]/beats[] will be retimed if any line overflows.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Roopkund",
+    "https://www.nature.com/articles/s41467-019-11357-9"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "हिमालय में 5,029 मीटर की ऊंचाई पर... सैकड़ों मानव कंकाल आज भी बर्फ में जमे हुए हैं।",
+      "tts": "हिमालय में 5,029 मीटर की ऊंचाई पर... सैकड़ों मानव कंकाल आज भी बर्फ में जमे हुए हैं।",
+      "start": 0.3,
+      "end": 6.55,
+      "words": [
+        {
+          "w": "हिमालय",
+          "start": 0.3,
+          "end": 0.706
+        },
+        {
+          "w": "में",
+          "start": 0.758,
+          "end": 0.863
+        },
+        {
+          "w": "5,029",
+          "start": 0.967,
+          "end": 1.915
+        },
+        {
+          "w": "मीटर",
+          "start": 1.998,
+          "end": 2.237
+        },
+        {
+          "w": "की",
+          "start": 2.29,
+          "end": 2.373
+        },
+        {
+          "w": "ऊंचाई",
+          "start": 2.456,
+          "end": 2.779
+        },
+        {
+          "w": "पर...",
+          "start": 2.862,
+          "end": 3.175
+        },
+        {
+          "w": "सैकड़ों",
+          "start": 3.394,
+          "end": 3.811
+        },
+        {
+          "w": "मानव",
+          "start": 3.852,
+          "end": 4.112
+        },
+        {
+          "w": "कंकाल",
+          "start": 4.175,
+          "end": 4.582
+        },
+        {
+          "w": "आज",
+          "start": 4.686,
+          "end": 4.883
+        },
+        {
+          "w": "भी",
+          "start": 4.946,
+          "end": 5.018
+        },
+        {
+          "w": "बर्फ",
+          "start": 5.071,
+          "end": 5.258
+        },
+        {
+          "w": "में",
+          "start": 5.332,
+          "end": 5.394
+        },
+        {
+          "w": "जमे",
+          "start": 5.436,
+          "end": 5.623
+        },
+        {
+          "w": "हुए",
+          "start": 5.664,
+          "end": 5.842
+        },
+        {
+          "w": "हैं।",
+          "start": 5.883,
+          "end": 6.55
+        }
+      ]
+    },
+    {
+      "beat": "no-names",
+      "text": "न कोई नाम। न कोई कब्र। न कोई रिकॉर्ड कि वे कौन थे।",
+      "tts": "न कोई नाम। न कोई कब्र। न कोई रिकॉर्ड कि वे कौन थे।",
+      "start": 6.6,
+      "end": 10.94,
+      "words": [
+        {
+          "w": "न",
+          "start": 6.6,
+          "end": 6.707
+        },
+        {
+          "w": "कोई",
+          "start": 6.765,
+          "end": 6.901
+        },
+        {
+          "w": "नाम।",
+          "start": 6.96,
+          "end": 7.338
+        },
+        {
+          "w": "न",
+          "start": 7.843,
+          "end": 7.94
+        },
+        {
+          "w": "कोई",
+          "start": 7.998,
+          "end": 8.125
+        },
+        {
+          "w": "कब्र।",
+          "start": 8.192,
+          "end": 8.668
+        },
+        {
+          "w": "न",
+          "start": 9.037,
+          "end": 9.105
+        },
+        {
+          "w": "कोई",
+          "start": 9.153,
+          "end": 9.27
+        },
+        {
+          "w": "रिकॉर्ड",
+          "start": 9.309,
+          "end": 9.649
+        },
+        {
+          "w": "कि",
+          "start": 9.726,
+          "end": 9.853
+        },
+        {
+          "w": "वे",
+          "start": 9.911,
+          "end": 9.989
+        },
+        {
+          "w": "कौन",
+          "start": 10.027,
+          "end": 10.222
+        },
+        {
+          "w": "थे।",
+          "start": 10.299,
+          "end": 10.95
+        }
+      ]
+    },
+    {
+      "beat": "discovery",
+      "text": "1942 में, ब्रिटिश काल के एक वन रक्षक को सबसे पहले यह भयावह मंज़र मिला।",
+      "tts": "1942 में, ब्रिटिश काल के एक वन रक्षक को सबसे पहले यह भयावह मंज़र मिला।",
+      "start": 11.0,
+      "end": 15.66,
+      "words": [
+        {
+          "w": "1942",
+          "start": 11.0,
+          "end": 11.644
+        },
+        {
+          "w": "में,",
+          "start": 11.733,
+          "end": 11.948
+        },
+        {
+          "w": "ब्रिटिश",
+          "start": 12.037,
+          "end": 12.306
+        },
+        {
+          "w": "काल",
+          "start": 12.359,
+          "end": 12.529
+        },
+        {
+          "w": "के",
+          "start": 12.592,
+          "end": 12.663
+        },
+        {
+          "w": "एक",
+          "start": 12.753,
+          "end": 12.86
+        },
+        {
+          "w": "वन",
+          "start": 12.922,
+          "end": 13.03
+        },
+        {
+          "w": "रक्षक",
+          "start": 13.083,
+          "end": 13.378
+        },
+        {
+          "w": "को",
+          "start": 13.396,
+          "end": 13.557
+        },
+        {
+          "w": "सबसे",
+          "start": 13.718,
+          "end": 13.995
+        },
+        {
+          "w": "पहले",
+          "start": 14.04,
+          "end": 14.237
+        },
+        {
+          "w": "यह",
+          "start": 14.29,
+          "end": 14.381
+        },
+        {
+          "w": "भयावह",
+          "start": 14.451,
+          "end": 14.765
+        },
+        {
+          "w": "मंज़र",
+          "start": 14.827,
+          "end": 15.069
+        },
+        {
+          "w": "मिला।",
+          "start": 15.114,
+          "end": 15.65
+        }
+      ]
+    },
+    {
+      "beat": "false-lead",
+      "text": "पहले उसे लगा कि यह युद्ध में खोई हुई किसी जापानी सेना की टुकड़ी है।",
+      "tts": "पहले उसे लगा कि यह युद्ध में खोई हुई किसी जापानी सेना की टुकड़ी है।",
+      "start": 15.7,
+      "end": 20.66,
+      "words": [
+        {
+          "w": "पहले",
+          "start": 15.7,
+          "end": 15.99
+        },
+        {
+          "w": "उसे",
+          "start": 16.048,
+          "end": 16.199
+        },
+        {
+          "w": "लगा",
+          "start": 16.257,
+          "end": 16.582
+        },
+        {
+          "w": "कि",
+          "start": 16.664,
+          "end": 16.826
+        },
+        {
+          "w": "यह",
+          "start": 16.907,
+          "end": 17.0
+        },
+        {
+          "w": "युद्ध",
+          "start": 17.116,
+          "end": 17.337
+        },
+        {
+          "w": "में",
+          "start": 17.418,
+          "end": 17.511
+        },
+        {
+          "w": "खोई",
+          "start": 17.558,
+          "end": 17.778
+        },
+        {
+          "w": "हुई",
+          "start": 17.836,
+          "end": 18.08
+        },
+        {
+          "w": "किसी",
+          "start": 18.126,
+          "end": 18.533
+        },
+        {
+          "w": "जापानी",
+          "start": 18.602,
+          "end": 19.02
+        },
+        {
+          "w": "सेना",
+          "start": 19.079,
+          "end": 19.322
+        },
+        {
+          "w": "की",
+          "start": 19.38,
+          "end": 19.462
+        },
+        {
+          "w": "टुकड़ी",
+          "start": 19.52,
+          "end": 19.81
+        },
+        {
+          "w": "है।",
+          "start": 19.891,
+          "end": 20.669
+        }
+      ]
+    },
+    {
+      "beat": "preserved",
+      "text": "लेकिन उस गर्मी में जब बर्फ पिघली, तो उसे कुछ और अजीब मिला — मांस, बाल, यहां तक कि त्वचा, अब भी सुरक्षित।",
+      "tts": "लेकिन उस गर्मी में जब बर्फ पिघली, तो उसे कुछ और अजीब मिला — मांस, बाल, यहां तक कि त्वचा, अब भी सुरक्षित।",
+      "start": 21.4,
+      "end": 28.83,
+      "words": [
+        {
+          "w": "लेकिन",
+          "start": 21.4,
+          "end": 21.669
+        },
+        {
+          "w": "उस",
+          "start": 21.739,
+          "end": 21.838
+        },
+        {
+          "w": "गर्मी",
+          "start": 21.898,
+          "end": 22.157
+        },
+        {
+          "w": "में",
+          "start": 22.197,
+          "end": 22.277
+        },
+        {
+          "w": "जब",
+          "start": 22.316,
+          "end": 22.435
+        },
+        {
+          "w": "बर्फ",
+          "start": 22.506,
+          "end": 22.705
+        },
+        {
+          "w": "पिघली,",
+          "start": 22.785,
+          "end": 23.282
+        },
+        {
+          "w": "तो",
+          "start": 23.491,
+          "end": 23.591
+        },
+        {
+          "w": "उसे",
+          "start": 23.651,
+          "end": 23.781
+        },
+        {
+          "w": "कुछ",
+          "start": 23.83,
+          "end": 23.96
+        },
+        {
+          "w": "और",
+          "start": 24.089,
+          "end": 24.248
+        },
+        {
+          "w": "अजीब",
+          "start": 24.299,
+          "end": 24.518
+        },
+        {
+          "w": "मिला",
+          "start": 24.548,
+          "end": 24.807
+        },
+        {
+          "w": "—",
+          "start": 24.956,
+          "end": 25.006
+        },
+        {
+          "w": "मांस,",
+          "start": 25.135,
+          "end": 25.593
+        },
+        {
+          "w": "बाल,",
+          "start": 25.663,
+          "end": 26.091
+        },
+        {
+          "w": "यहां",
+          "start": 26.24,
+          "end": 26.44
+        },
+        {
+          "w": "तक",
+          "start": 26.469,
+          "end": 26.589
+        },
+        {
+          "w": "कि",
+          "start": 26.609,
+          "end": 26.678
+        },
+        {
+          "w": "त्वचा,",
+          "start": 26.749,
+          "end": 27.266
+        },
+        {
+          "w": "अब",
+          "start": 27.505,
+          "end": 27.644
+        },
+        {
+          "w": "भी",
+          "start": 27.685,
+          "end": 27.754
+        },
+        {
+          "w": "सुरक्षित।",
+          "start": 27.804,
+          "end": 28.85
+        }
+      ]
+    },
+    {
+      "beat": "scale",
+      "text": "यह दस शव नहीं थे। यह पचास भी नहीं थे। यहां लगभग 800 लोगों के अवशेष हैं।",
+      "tts": "यह दस शव नहीं थे। यह पचास भी नहीं थे। यहां लगभग 800 लोगों के अवशेष हैं।",
+      "start": 28.9,
+      "end": 34.8,
+      "words": [
+        {
+          "w": "यह",
+          "start": 28.9,
+          "end": 29.051
+        },
+        {
+          "w": "दस",
+          "start": 29.109,
+          "end": 29.295
+        },
+        {
+          "w": "शव",
+          "start": 29.364,
+          "end": 29.539
+        },
+        {
+          "w": "नहीं",
+          "start": 29.608,
+          "end": 29.806
+        },
+        {
+          "w": "थे।",
+          "start": 29.852,
+          "end": 30.154
+        },
+        {
+          "w": "यह",
+          "start": 30.363,
+          "end": 30.491
+        },
+        {
+          "w": "पचास",
+          "start": 30.549,
+          "end": 30.897
+        },
+        {
+          "w": "भी",
+          "start": 30.967,
+          "end": 31.048
+        },
+        {
+          "w": "नहीं",
+          "start": 31.094,
+          "end": 31.28
+        },
+        {
+          "w": "थे।",
+          "start": 31.326,
+          "end": 31.663
+        },
+        {
+          "w": "यहां",
+          "start": 31.988,
+          "end": 32.255
+        },
+        {
+          "w": "लगभग",
+          "start": 32.29,
+          "end": 32.627
+        },
+        {
+          "w": "800",
+          "start": 32.778,
+          "end": 33.022
+        },
+        {
+          "w": "लोगों",
+          "start": 33.138,
+          "end": 33.393
+        },
+        {
+          "w": "के",
+          "start": 33.416,
+          "end": 33.486
+        },
+        {
+          "w": "अवशेष",
+          "start": 33.544,
+          "end": 33.95
+        },
+        {
+          "w": "हैं।",
+          "start": 34.101,
+          "end": 34.798
+        }
+      ]
+    },
+    {
+      "beat": "map",
+      "text": "रूपकुंड एक ऐसे रास्ते पर है जो कहीं नहीं जाता — न कोई गांव, न कोई सड़क, न इतनी बड़ी भीड़ के यहां होने की कोई वजह।",
+      "tts": "रूपकुंड एक ऐसे रास्ते पर है जो कहीं नहीं जाता — न कोई गांव, न कोई सड़क, न इतनी बड़ी भीड़ के यहां होने की कोई वजह।",
+      "start": 35.4,
+      "end": 43.56,
+      "words": [
+        {
+          "w": "रूपकुंड",
+          "start": 35.4,
+          "end": 35.938
+        },
+        {
+          "w": "एक",
+          "start": 36.051,
+          "end": 36.207
+        },
+        {
+          "w": "ऐसे",
+          "start": 36.31,
+          "end": 36.538
+        },
+        {
+          "w": "रास्ते",
+          "start": 36.589,
+          "end": 36.869
+        },
+        {
+          "w": "पर",
+          "start": 36.93,
+          "end": 37.034
+        },
+        {
+          "w": "है",
+          "start": 37.107,
+          "end": 37.293
+        },
+        {
+          "w": "जो",
+          "start": 37.448,
+          "end": 37.583
+        },
+        {
+          "w": "कहीं",
+          "start": 37.624,
+          "end": 37.83
+        },
+        {
+          "w": "नहीं",
+          "start": 37.861,
+          "end": 38.027
+        },
+        {
+          "w": "जाता",
+          "start": 38.058,
+          "end": 38.44
+        },
+        {
+          "w": "—",
+          "start": 38.595,
+          "end": 38.658
+        },
+        {
+          "w": "न",
+          "start": 38.792,
+          "end": 38.896
+        },
+        {
+          "w": "कोई",
+          "start": 38.947,
+          "end": 39.093
+        },
+        {
+          "w": "गांव,",
+          "start": 39.165,
+          "end": 39.599
+        },
+        {
+          "w": "न",
+          "start": 39.754,
+          "end": 39.858
+        },
+        {
+          "w": "कोई",
+          "start": 39.909,
+          "end": 40.044
+        },
+        {
+          "w": "सड़क,",
+          "start": 40.116,
+          "end": 40.551
+        },
+        {
+          "w": "न",
+          "start": 40.737,
+          "end": 40.809
+        },
+        {
+          "w": "इतनी",
+          "start": 40.881,
+          "end": 41.141
+        },
+        {
+          "w": "बड़ी",
+          "start": 41.192,
+          "end": 41.368
+        },
+        {
+          "w": "भीड़",
+          "start": 41.43,
+          "end": 41.637
+        },
+        {
+          "w": "के",
+          "start": 41.688,
+          "end": 41.761
+        },
+        {
+          "w": "यहां",
+          "start": 41.823,
+          "end": 42.03
+        },
+        {
+          "w": "होने",
+          "start": 42.061,
+          "end": 42.278
+        },
+        {
+          "w": "की",
+          "start": 42.33,
+          "end": 42.413
+        },
+        {
+          "w": "कोई",
+          "start": 42.464,
+          "end": 42.599
+        },
+        {
+          "w": "वजह।",
+          "start": 42.66,
+          "end": 43.55
+        }
+      ]
+    },
+    {
+      "beat": "wound",
+      "text": "और हर एक खोपड़ी पर बिल्कुल एक जैसा घाव है।",
+      "tts": "और हर एक खोपड़ी पर बिल्कुल एक जैसा घाव है।",
+      "start": 43.6,
+      "end": 47.08,
+      "words": [
+        {
+          "w": "और",
+          "start": 43.6,
+          "end": 43.763
+        },
+        {
+          "w": "हर",
+          "start": 43.821,
+          "end": 43.96
+        },
+        {
+          "w": "एक",
+          "start": 44.041,
+          "end": 44.111
+        },
+        {
+          "w": "खोपड़ी",
+          "start": 44.169,
+          "end": 44.506
+        },
+        {
+          "w": "पर",
+          "start": 44.564,
+          "end": 44.738
+        },
+        {
+          "w": "बिल्कुल",
+          "start": 44.947,
+          "end": 45.307
+        },
+        {
+          "w": "एक",
+          "start": 45.434,
+          "end": 45.597
+        },
+        {
+          "w": "जैसा",
+          "start": 45.655,
+          "end": 45.91
+        },
+        {
+          "w": "घाव",
+          "start": 45.98,
+          "end": 46.247
+        },
+        {
+          "w": "है।",
+          "start": 46.34,
+          "end": 47.083
+        }
+      ]
+    },
+    {
+      "beat": "struck",
+      "text": "छोटा। गहरा। गोल। सीधे ऊपर से किया गया वार।",
+      "tts": "छोटा। गहरा। गोल। सीधे ऊपर से किया गया वार।",
+      "start": 47.5,
+      "end": 52.06,
+      "words": [
+        {
+          "w": "छोटा।",
+          "start": 47.5,
+          "end": 48.094
+        },
+        {
+          "w": "गहरा।",
+          "start": 48.249,
+          "end": 48.791
+        },
+        {
+          "w": "गोल।",
+          "start": 49.242,
+          "end": 49.745
+        },
+        {
+          "w": "सीधे",
+          "start": 50.031,
+          "end": 50.339
+        },
+        {
+          "w": "ऊपर",
+          "start": 50.421,
+          "end": 50.677
+        },
+        {
+          "w": "से",
+          "start": 50.739,
+          "end": 50.821
+        },
+        {
+          "w": "किया",
+          "start": 50.872,
+          "end": 51.056
+        },
+        {
+          "w": "गया",
+          "start": 51.107,
+          "end": 51.261
+        },
+        {
+          "w": "वार।",
+          "start": 51.302,
+          "end": 52.05
+        }
+      ]
+    },
+    {
+      "beat": "cliffhanger",
+      "text": "आसमान से इन लोगों पर कुछ बरसा था। आख़िर वह क्या था? जानिए भाग 2 में।",
+      "tts": "आसमान से इन लोगों पर कुछ बरसा था। आख़िर वह क्या था? जानिए भाग 2 में।",
+      "start": 52.1,
+      "end": 58.32,
+      "words": [
+        {
+          "w": "आसमान",
+          "start": 52.1,
+          "end": 52.634
+        },
+        {
+          "w": "से",
+          "start": 52.727,
+          "end": 52.82
+        },
+        {
+          "w": "इन",
+          "start": 52.889,
+          "end": 52.994
+        },
+        {
+          "w": "लोगों",
+          "start": 53.064,
+          "end": 53.296
+        },
+        {
+          "w": "पर",
+          "start": 53.331,
+          "end": 53.435
+        },
+        {
+          "w": "कुछ",
+          "start": 53.493,
+          "end": 53.621
+        },
+        {
+          "w": "बरसा",
+          "start": 53.691,
+          "end": 53.981
+        },
+        {
+          "w": "था।",
+          "start": 54.062,
+          "end": 54.41
+        },
+        {
+          "w": "आख़िर",
+          "start": 54.852,
+          "end": 55.211
+        },
+        {
+          "w": "वह",
+          "start": 55.258,
+          "end": 55.362
+        },
+        {
+          "w": "क्या",
+          "start": 55.444,
+          "end": 55.629
+        },
+        {
+          "w": "था?",
+          "start": 55.699,
+          "end": 56.059
+        },
+        {
+          "w": "जानिए",
+          "start": 56.663,
+          "end": 57.057
+        },
+        {
+          "w": "भाग",
+          "start": 57.174,
+          "end": 57.499
+        },
+        {
+          "w": "2",
+          "start": 57.615,
+          "end": 57.731
+        },
+        {
+          "w": "में।",
+          "start": 57.8,
+          "end": 58.323
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "image",
+      "start_s": 0,
+      "end_s": 6.6,
+      "prompt": "Aerial drone shot soaring over jagged snow-capped Himalayan peaks toward a small turquoise glacial lake nestled in a rocky bowl, thin mist, golden-hour light, no people, hyperrealistic 8k cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/01-hook.png",
+      "variant": 0,
+      "note": "frame 0 fully composed -- this exact still is also the loop target (reused by beat 10's title card + tail)"
+    },
+    {
+      "id": "no-names",
+      "engine": "image",
+      "start_s": 6.6,
+      "end_s": 11.0,
+      "prompt": "Extreme close-up of a bleached human skull half-submerged in shallow icy water, weathered bones scattered on a rocky shore, no other people, moody overcast lighting, cinematic realism, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/02-no-names.png",
+      "variant": 1
+    },
+    {
+      "id": "discovery",
+      "engine": "image",
+      "start_s": 11.0,
+      "end_s": 15.7,
+      "prompt": "1940s-era Indian forest ranger in a worn colonial-period uniform, seen from behind or at a distance with face not visible, trekking through deep snow, discovering scattered bones half-buried in melting ice, vintage film grain, cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/03-discovery.png",
+      "variant": 2,
+      "note": "editorial rule: generic/anonymized figure only -- never a claimed likeness of the real H.K. Madhwal"
+    },
+    {
+      "id": "false-lead",
+      "engine": "image",
+      "start_s": 15.7,
+      "end_s": 21.4,
+      "prompt": "Wide drone shot showing dozens of skeletal remains scattered across a rocky lakebed, snow-capped peaks in the background, no people, desaturated cinematic documentary tone, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/04-false-lead.png",
+      "variant": 3
+    },
+    {
+      "id": "preserved",
+      "engine": "image",
+      "start_s": 21.4,
+      "end_s": 28.9,
+      "prompt": "Close-up of preserved frozen flesh and hair still clinging to bone fragments in ice, unsettling clinical detail, no gore, cinematic realism, documentary tone, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/05-preserved.png",
+      "variant": 1
+    },
+    {
+      "id": "scale",
+      "engine": "image",
+      "start_s": 28.9,
+      "end_s": 35.4,
+      "prompt": "Wide aerial shot revealing the true scale of a lakebed covered in scattered human skeletal remains, snow peaks towering above, no people, cinematic scale, documentary photography, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/06-scale.png",
+      "variant": 0
+    },
+    {
+      "id": "map",
+      "engine": "tsx",
+      "start_s": 35.4,
+      "end_s": 43.6,
+      "component": "RoopkundMapZoom",
+      "note": "reuses lib/map.tsx real projection data; camera settles on Roopkund's real coordinates (30.2622N, 79.7317E) inside India"
+    },
+    {
+      "id": "wound",
+      "engine": "image",
+      "start_s": 43.6,
+      "end_s": 47.5,
+      "prompt": "Forensic close-up illustration of a cracked human skull with a short, deep, circular fracture on the crown, clinical lighting, medical-documentary style, no other people, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/08-wound.png",
+      "variant": 1,
+      "note": "series-wide recurring motif -- same still reused at each future part's midpoint per source script's production notes"
+    },
+    {
+      "id": "struck",
+      "engine": "image",
+      "start_s": 47.5,
+      "end_s": 52.1,
+      "still": "projects/roopkund-lake-1-lake-of-bones/08-wound.png",
+      "variant": 4,
+      "note": "reuses beat 8's still with a tighter push-in Ken Burns variant -- no second generation"
+    },
+    {
+      "id": "cliffhanger",
+      "engine": "tsx",
+      "start_s": 52.1,
+      "end_s": 61.5,
+      "component": "PartTitleCard",
+      "note": "bold title card over the hook's lake still (projects/roopkund-lake-1-lake-of-bones/01-hook.png); VO ends at 58.0s, leaving a ~3s silent tail so captions clear (0.8s hold) and the title fades out before the beat ends, matching frame 0 for the loop"
+    }
+  ],
+  "voiceStatus": "elevenlabs:JBFqnCBsd6RMkjVDRZzb"
+}

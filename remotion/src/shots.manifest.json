@@ -56,6 +56,14 @@
   "transparent": false
  },
  {
+  "id": "RoopkundEp1LakeOfBonesHi",
+  "durationInSeconds": 61.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "RoopkundEp1LakeOfBones",
   "durationInSeconds": 61.5,
   "fps": 30,
@@ -66,6 +74,14 @@
  {
   "id": "RoopkundLake1Thumbnail",
   "durationInSeconds": 1,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "RoopkundEp2TheStormHi",
+  "durationInSeconds": 63,
   "fps": 30,
   "width": 1080,
   "height": 1920,
