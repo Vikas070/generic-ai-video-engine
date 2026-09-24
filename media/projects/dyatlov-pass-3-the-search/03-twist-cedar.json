@@ -1,0 +1,21 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "A slow, steady vertical tilt shot beginning at the base of a single lone, bare cedar tree standing in open snow, tilting slowly upward along the trunk to reveal several branches broken and splintered high above the ground. A single human figure in a heavy dark winter coat stands at the base looking up, back to camera the entire time, face never visible. Overcast winter light, muted desaturated cold color grading, quiet documentary/archival treatment. Full-bleed 9:16 vertical, no letterboxing, no black bars.",
+    "notes": "Google Flow, Veo 3.1 model, regenerated take (first take had baked-in letterbox bars, rejected), 1080x1920 24fps, twist beat for dyatlov-pass-3"
+  },
+  "source_file": "C:/Users/vikas/Downloads/Person_looking_up_at_tree_20260918134041.mp4",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "codec": "h264",
+    "duration_s": 8.0
+  },
+  "frame0": "media\\projects\\dyatlov-pass-3-the-search\\03-twist-cedar-frame0.png",
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-18T13:41:44"
+}

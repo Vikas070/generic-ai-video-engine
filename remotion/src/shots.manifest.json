@@ -8,8 +8,88 @@
   "transparent": false
  },
  {
+  "id": "DyatlovEp1Expedition",
+  "durationInSeconds": 32.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "DyatlovEp2Tent",
+  "durationInSeconds": 33.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "DyatlovEp3Search",
+  "durationInSeconds": 35.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "DyatlovEp4Ravine",
+  "durationInSeconds": 36.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "DyatlovEp5Science",
+  "durationInSeconds": 34.6,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "HybridDemo",
   "durationInSeconds": 8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "RoopkundEp1LakeOfBones",
+  "durationInSeconds": 61.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "RoopkundLake1Thumbnail",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "RoopkundEp2TheStorm",
+  "durationInSeconds": 63,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "RoopkundEp3WhoWereThey",
+  "durationInSeconds": 61.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "RoopkundEp4AThousandYearsApart",
+  "durationInSeconds": 67.2,
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -114,6 +194,14 @@
  {
   "id": "Vox1Coffee",
   "durationInSeconds": 40.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "VoynichEp1UnbreakableCodex",
+  "durationInSeconds": 61.5,
   "fps": 30,
   "width": 1080,
   "height": 1920,

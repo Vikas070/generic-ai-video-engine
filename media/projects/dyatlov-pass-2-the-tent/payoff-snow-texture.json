@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Close texture shot of wind-driven snow in darkness, no people, abstract and tense, 9:16",
+    "notes": "Generated in Google Flow"
+  },
+  "source_file": "videos\\dyatlov-pass-2-the-tent\\shots\\Wind-driven_snow_in_darkness_2K_20260910210637.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-10T21:08:16"
+}

@@ -1,0 +1,21 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Static wide documentary shot, a snow-drifted, clearly abandoned mountaineering tent at dawn on a windswept mountain slope. Flat grey overcast light. Loose tent fabric flutters gently in the wind; fine snow drifts and swirls low across the ground. No people, no faces, nothing moving except the fabric and the snow. Slow, almost imperceptible push-in on the tent. Quiet, desolate, documentary photography style, muted cold palette. 9:16 vertical.",
+    "notes": "Google Flow, Veo 3.1 model, generated at 1080x1920 24fps, hook beat for dyatlov-pass-3"
+  },
+  "source_file": "C:/Users/vikas/Downloads/Abandoned_tent_on_snowy_slope_20260918132315.mp4",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "codec": "h264",
+    "duration_s": 8.0
+  },
+  "frame0": "media\\projects\\dyatlov-pass-3-the-search\\01-hook-frame0.png",
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-18T13:24:55"
+}

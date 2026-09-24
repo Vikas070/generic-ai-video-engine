@@ -1,0 +1,21 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "A slow, gentle push-in over a wide, calm snow-covered mountain slope at dawn. Soft warm golden light spilling across the snow, clear sky, utterly peaceful and still. No people, no tent, no faces, nothing moving except the faintest drift of fine snow catching the light. Steady, slow camera movement, no shake. Quiet, restrained documentary photography style, warm and calm -- the opposite mood of a blue, ominous dusk shot: this is resolution, not tension. Full-bleed 9:16 vertical, no letterboxing, no black bars, image fills the entire frame edge-to-edge.",
+    "notes": "Google Flow, Veo 3.1 model, 1080x1920 24fps, hook/loop beat for dyatlov-pass-5 -- Prompt A (steady push-in), chosen over Prompt B (camera angle change) which showed a figure's shadow + ski tracks and read as action-sports POV rather than calm resolution"
+  },
+  "source_file": "C:/Users/vikas/Downloads/Snow_covered_mountain_slope_at_20260920123613.mp4",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "codec": "h264",
+    "duration_s": 8.0
+  },
+  "frame0": "media\\projects\\dyatlov-pass-5-the-science\\01-hook-frame0.png",
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-20T12:40:26"
+}

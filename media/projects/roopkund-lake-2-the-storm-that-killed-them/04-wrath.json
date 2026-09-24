@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "A violent hailstorm breaking over a bowl-shaped Himalayan valley, the sky gone dark green-black, streaks of hail visible falling fast. Small, indistinct figures far below the peaks, scattering — no faces, no detail on any individual. Camera holds high and wide, looking down into the bowl as the storm closes in. Dramatic, high-contrast cinematic documentary photography, vertical 9:16.",
+    "notes": "Google Flow, hand-picked still frame; beat: wrath"
+  },
+  "source_file": "videos\\roopkund-lake-2-the-storm-that-killed-them\\assets\\Image 04.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-22T18:37:57"
+}

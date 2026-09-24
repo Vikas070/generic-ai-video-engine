@@ -35,7 +35,10 @@
         "vox-1-coffee",
         "short-11-map",
         "ch-5-three-skills",
-        "blue-man-1-door"
+        "blue-man-1-door",
+        "dyatlov-pass-3-the-search",
+        "dyatlov-pass-4-the-ravine",
+        "dyatlov-pass-5-the-science"
       ]
     },
     {
@@ -63,7 +66,8 @@
         "short-8-phish",
         "vox-1-coffee",
         "short-12-orbit",
-        "blue-man-1-door"
+        "blue-man-1-door",
+        "dyatlov-pass-3-the-search"
       ]
     },
     {
@@ -95,7 +99,10 @@
         "short-11-map",
         "short-12-orbit",
         "ch-5-three-skills",
-        "blue-man-1-door"
+        "blue-man-1-door",
+        "dyatlov-pass-3-the-search",
+        "dyatlov-pass-4-the-ravine",
+        "dyatlov-pass-5-the-science"
       ]
     },
     {
@@ -129,7 +136,9 @@
         "short-10-fees",
         "vox-1-coffee",
         "short-11-map",
-        "short-12-orbit"
+        "short-12-orbit",
+        "dyatlov-pass-4-the-ravine",
+        "dyatlov-pass-5-the-science"
       ]
     },
     {
@@ -159,7 +168,9 @@
         "short-10-fees",
         "short-11-map",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "dyatlov-pass-3-the-search",
+        "dyatlov-pass-5-the-science"
       ]
     },
     {
@@ -196,7 +207,9 @@
         "vox-1-coffee",
         "short-11-map",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "dyatlov-pass-3-the-search",
+        "dyatlov-pass-4-the-ravine"
       ]
     },
     {
@@ -568,7 +581,8 @@
         "vox-1-coffee",
         "short-11-map",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "dyatlov-pass-4-the-ravine"
       ]
     },
     {
@@ -669,7 +683,10 @@
       "prompt": "A soft gentle breeze moving through trees at dusk — a light airy wind rustling leaves, calm and natural, a little hushed and lonely, no howling, no gusts, no music.",
       "used_in": [
         "short-7-kids",
-        "blue-man-1-door"
+        "blue-man-1-door",
+        "dyatlov-pass-3-the-search",
+        "dyatlov-pass-4-the-ravine",
+        "dyatlov-pass-5-the-science"
       ]
     },
     {

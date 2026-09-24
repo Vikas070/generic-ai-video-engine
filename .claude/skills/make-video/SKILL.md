@@ -153,6 +153,10 @@ node scripts/frames.mjs VideoNName <f0,beat-boundaries,last> --scale=0.5   # REA
 node scripts/render-all.mjs VideoNName --scale=1
 python tools/gen_voice.py --beats videos/<name>/beats.json --emit-ts remotion/src/shots/video-N/vo.gen.ts
 ```
+
+More than ~3 frames to check? Tile them into one ffmpeg contact sheet and read that
+single image instead — see CLAUDE.md's "QA at scale" convention.
+
 Then the `/suggest-sfx` flow exactly as `make-short` Stage 5, and optional `mix_music.py`.
 
 ## Done =

@@ -1,0 +1,562 @@
+{
+  "id": "dyatlov-pass-3-the-search",
+  "title": "The Search",
+  "series": "dyatlov-pass",
+  "part": 3,
+  "partsTotal": 5,
+  "composition": "DyatlovEp3Search",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 35.5
+  },
+  "voiceStatus": "elevenlabs:JBFqnCBsd6RMkjVDRZzb",
+  "notes": "Part 3/5. Windows are 2.7wps estimates until gen_voice.py writes real times. Editorial rule refined for the cinematic pass: generic, unidentifiable human figures (distant, backs turned, no visible faces) are OK in reveal/twist for realism, but still NEVER a specific likeness of the real named victims -- hook stays people-free since its VO point is that the tent is empty. Cinematic pass: hook/reveal/twist upgraded from Ken-Burns stills to Google Flow motion clips (provider google-flow-manual, manual UI generation -- see ai-shorts/PROVIDERS.md); setup/payoff stay tsx. hook's loop-settle target is now the CLIP's own extracted frame0 (ingest_flow_asset.py --extract-frame0), never the prompt text -- same discipline as the rest of the series' loop-by-constraint rule.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
+    "https://www.futurity.org/dyatlov-pass-incident-avalanche-2510132-2/"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "Three weeks later, searchers found the tent. Empty.",
+      "tts": "[grave] Three weeks later, searchers found the tent. [slow] Empty.",
+      "start": 0.3,
+      "end": 4.78,
+      "words": [
+        {
+          "w": "Three",
+          "start": 0.448,
+          "end": 0.487
+        },
+        {
+          "w": "weeks",
+          "start": 0.528,
+          "end": 0.736
+        },
+        {
+          "w": "later,",
+          "start": 0.777,
+          "end": 1.296
+        },
+        {
+          "w": "searchers",
+          "start": 1.331,
+          "end": 1.669
+        },
+        {
+          "w": "found",
+          "start": 1.71,
+          "end": 1.918
+        },
+        {
+          "w": "the",
+          "start": 1.933,
+          "end": 1.98
+        },
+        {
+          "w": "tent.",
+          "start": 2.042,
+          "end": 2.727
+        },
+        {
+          "w": "Empty.",
+          "start": 3.476,
+          "end": 4.78
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "February 26th. Inside: their boots. Their coats. Their food. Everything they needed to survive — left behind.",
+      "tts": "[measured, documentary] February 26th. Inside: their boots. Their coats. Their food. [grave] Everything they needed to survive -- left behind.",
+      "start": 4.83,
+      "end": 11.77,
+      "words": [
+        {
+          "w": "February",
+          "start": 5.1,
+          "end": 5.14
+        },
+        {
+          "w": "26th.",
+          "start": 5.202,
+          "end": 6.131
+        },
+        {
+          "w": "Inside:",
+          "start": 6.185,
+          "end": 6.565
+        },
+        {
+          "w": "their",
+          "start": 6.606,
+          "end": 6.813
+        },
+        {
+          "w": "boots.",
+          "start": 6.875,
+          "end": 7.402
+        },
+        {
+          "w": "Their",
+          "start": 7.438,
+          "end": 7.618
+        },
+        {
+          "w": "coats.",
+          "start": 7.69,
+          "end": 8.238
+        },
+        {
+          "w": "Their",
+          "start": 8.269,
+          "end": 8.424
+        },
+        {
+          "w": "food.",
+          "start": 8.498,
+          "end": 8.858
+        },
+        {
+          "w": "Everything",
+          "start": 9.631,
+          "end": 9.725
+        },
+        {
+          "w": "they",
+          "start": 9.75,
+          "end": 9.849
+        },
+        {
+          "w": "needed",
+          "start": 9.885,
+          "end": 10.097
+        },
+        {
+          "w": "to",
+          "start": 10.118,
+          "end": 10.159
+        },
+        {
+          "w": "survive",
+          "start": 10.221,
+          "end": 10.655
+        },
+        {
+          "w": "--",
+          "start": 10.799,
+          "end": 11.088
+        },
+        {
+          "w": "left",
+          "start": 11.126,
+          "end": 11.274
+        },
+        {
+          "w": "behind.",
+          "start": 11.345,
+          "end": 11.77
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Footprints in the snow led away from camp, down the slope, toward a lone cedar tree.",
+      "tts": "[measured] Footprints in the snow led away from camp, down the slope, toward a lone cedar tree.",
+      "start": 11.82,
+      "end": 17.49,
+      "words": [
+        {
+          "w": "Footprints",
+          "start": 12.092,
+          "end": 12.46
+        },
+        {
+          "w": "in",
+          "start": 12.487,
+          "end": 12.54
+        },
+        {
+          "w": "the",
+          "start": 12.56,
+          "end": 12.62
+        },
+        {
+          "w": "snow",
+          "start": 12.732,
+          "end": 13.18
+        },
+        {
+          "w": "led",
+          "start": 13.24,
+          "end": 13.42
+        },
+        {
+          "w": "away",
+          "start": 13.484,
+          "end": 13.74
+        },
+        {
+          "w": "from",
+          "start": 13.772,
+          "end": 13.9
+        },
+        {
+          "w": "camp,",
+          "start": 14.012,
+          "end": 14.78
+        },
+        {
+          "w": "down",
+          "start": 14.828,
+          "end": 15.02
+        },
+        {
+          "w": "the",
+          "start": 15.04,
+          "end": 15.1
+        },
+        {
+          "w": "slope,",
+          "start": 15.18,
+          "end": 15.9
+        },
+        {
+          "w": "toward",
+          "start": 15.946,
+          "end": 16.22
+        },
+        {
+          "w": "a",
+          "start": 16.26,
+          "end": 16.3
+        },
+        {
+          "w": "lone",
+          "start": 16.38,
+          "end": 16.7
+        },
+        {
+          "w": "cedar",
+          "start": 16.767,
+          "end": 17.1
+        },
+        {
+          "w": "tree.",
+          "start": 17.18,
+          "end": 17.5
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Near the tree, branches were broken high above the ground — as if someone had climbed to look back toward the tent.",
+      "tts": "[quiet, measured] Near the tree, branches were broken high above the ground -- as if someone had climbed to look back toward the tent.",
+      "start": 17.59,
+      "end": 24.94,
+      "words": [
+        {
+          "w": "Near",
+          "start": 17.846,
+          "end": 17.91
+        },
+        {
+          "w": "the",
+          "start": 17.93,
+          "end": 17.99
+        },
+        {
+          "w": "tree,",
+          "start": 18.086,
+          "end": 18.87
+        },
+        {
+          "w": "branches",
+          "start": 18.923,
+          "end": 19.35
+        },
+        {
+          "w": "were",
+          "start": 19.398,
+          "end": 19.59
+        },
+        {
+          "w": "broken",
+          "start": 19.647,
+          "end": 19.99
+        },
+        {
+          "w": "high",
+          "start": 20.038,
+          "end": 20.23
+        },
+        {
+          "w": "above",
+          "start": 20.27,
+          "end": 20.47
+        },
+        {
+          "w": "the",
+          "start": 20.51,
+          "end": 20.63
+        },
+        {
+          "w": "ground",
+          "start": 20.687,
+          "end": 21.03
+        },
+        {
+          "w": "--",
+          "start": 21.297,
+          "end": 21.83
+        },
+        {
+          "w": "as",
+          "start": 21.883,
+          "end": 21.99
+        },
+        {
+          "w": "if",
+          "start": 22.043,
+          "end": 22.15
+        },
+        {
+          "w": "someone",
+          "start": 22.19,
+          "end": 22.47
+        },
+        {
+          "w": "had",
+          "start": 22.51,
+          "end": 22.63
+        },
+        {
+          "w": "climbed",
+          "start": 22.7,
+          "end": 23.19
+        },
+        {
+          "w": "to",
+          "start": 23.27,
+          "end": 23.43
+        },
+        {
+          "w": "look",
+          "start": 23.478,
+          "end": 23.67
+        },
+        {
+          "w": "back",
+          "start": 23.734,
+          "end": 23.99
+        },
+        {
+          "w": "toward",
+          "start": 24.036,
+          "end": 24.31
+        },
+        {
+          "w": "the",
+          "start": 24.33,
+          "end": 24.39
+        },
+        {
+          "w": "tent.",
+          "start": 24.486,
+          "end": 24.95
+        }
+      ]
+    },
+    {
+      "beat": "payoff",
+      "text": "There, searchers found two bodies in just their underwear. Three more were found between the tree and the tent. Four hikers were still out there.",
+      "tts": "[grave] There, searchers found two bodies in just their underwear. Three more were found between the tree and the tent. [slow] Four hikers were still out there.",
+      "start": 25.04,
+      "end": 34.71,
+      "words": [
+        {
+          "w": "There,",
+          "start": 25.357,
+          "end": 25.76
+        },
+        {
+          "w": "searchers",
+          "start": 25.806,
+          "end": 26.24
+        },
+        {
+          "w": "found",
+          "start": 26.293,
+          "end": 26.56
+        },
+        {
+          "w": "two",
+          "start": 26.6,
+          "end": 26.72
+        },
+        {
+          "w": "bodies",
+          "start": 26.777,
+          "end": 27.12
+        },
+        {
+          "w": "in",
+          "start": 27.173,
+          "end": 27.28
+        },
+        {
+          "w": "just",
+          "start": 27.328,
+          "end": 27.52
+        },
+        {
+          "w": "their",
+          "start": 27.547,
+          "end": 27.68
+        },
+        {
+          "w": "underwear.",
+          "start": 27.736,
+          "end": 28.88
+        },
+        {
+          "w": "Three",
+          "start": 28.987,
+          "end": 29.52
+        },
+        {
+          "w": "more",
+          "start": 29.584,
+          "end": 29.84
+        },
+        {
+          "w": "were",
+          "start": 29.872,
+          "end": 30.0
+        },
+        {
+          "w": "found",
+          "start": 30.053,
+          "end": 30.32
+        },
+        {
+          "w": "between",
+          "start": 30.36,
+          "end": 30.64
+        },
+        {
+          "w": "the",
+          "start": 30.66,
+          "end": 30.72
+        },
+        {
+          "w": "tree",
+          "start": 30.8,
+          "end": 31.12
+        },
+        {
+          "w": "and",
+          "start": 31.14,
+          "end": 31.2
+        },
+        {
+          "w": "the",
+          "start": 31.22,
+          "end": 31.28
+        },
+        {
+          "w": "tent.",
+          "start": 31.376,
+          "end": 31.84
+        },
+        {
+          "w": "Four",
+          "start": 33.216,
+          "end": 33.28
+        },
+        {
+          "w": "hikers",
+          "start": 33.36,
+          "end": 33.76
+        },
+        {
+          "w": "were",
+          "start": 33.792,
+          "end": 33.92
+        },
+        {
+          "w": "still",
+          "start": 33.947,
+          "end": 34.08
+        },
+        {
+          "w": "out",
+          "start": 34.14,
+          "end": 34.32
+        },
+        {
+          "w": "there.",
+          "start": 34.36,
+          "end": 34.72
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "ai-video",
+      "provider": "google-flow-manual",
+      "start_s": 0,
+      "end_s": 4.83,
+      "prompt": "Static wide documentary shot, a snow-drifted, clearly abandoned mountaineering tent at dawn on a windswept mountain slope. Flat grey overcast light. Loose tent fabric flutters gently in the wind; fine snow drifts and swirls low across the ground. No people, no faces, nothing moving except the fabric and the snow. Slow, almost imperceptible push-in on the tent. Quiet, desolate, documentary photography style, muted cold palette. 9:16 vertical.",
+      "clip": "shots/01-hook.mp4",
+      "note": "frame 0 fully composed -- loop-settle dissolves onto this clip's OWN extracted frame0, not a separate still"
+    },
+    {
+      "id": "setup",
+      "engine": "tsx",
+      "start_s": 4.83,
+      "end_s": 11.82,
+      "component": "SearchFindingsList",
+      "note": "list card: 'Feb 26' then 'boots -- left' / 'coats -- left' / 'food -- left' items popping in"
+    },
+    {
+      "id": "reveal",
+      "engine": "ai-video",
+      "provider": "google-flow-manual",
+      "start_s": 11.82,
+      "end_s": 17.59,
+      "prompt": "Slow low-angle tracking shot gliding just above a line of footprints in deep snow, following them across a wide open slope toward a lone bare cedar tree standing on the horizon. Two or three search-party figures in period winter coats walk along the footprints ahead in the distance, small in frame, backs to camera, too far and too obscured for any face to be visible -- generic, unidentifiable silhouettes, not specific individuals. Overcast winter light, muted grey-blue tones. Wide documentary framing, camera glides forward smoothly and steadily, no shake. 9:16 vertical.",
+      "clip": "shots/02-reveal-footprints.mp4"
+    },
+    {
+      "id": "twist",
+      "engine": "ai-video",
+      "provider": "google-flow-manual",
+      "start_s": 17.59,
+      "end_s": 25.04,
+      "prompt": "Slow vertical tilt shot starting at the base of a lone bare cedar tree standing alone in snow, moving upward along the trunk to reveal broken branches high above the ground. A single search-party figure in a period winter coat stands at the base of the tree looking up, back to camera, face not visible, small and distant enough to be unidentifiable -- a generic silhouette, not a specific individual. Overcast winter light, archival documentary treatment, desaturated cold tones. Wind moves the fine upper branches slightly. Steady, deliberate camera movement, no shake. 9:16 vertical.",
+      "clip": "shots/03-twist-cedar.mp4"
+    },
+    {
+      "id": "payoff",
+      "engine": "tsx",
+      "start_s": 25.04,
+      "end_s": 34.7,
+      "component": "BodyCountStatCards",
+      "note": "stat cards counting in: '2 found near the tree' -> '3 more between tree and tent' -> '4 still missing'"
+    },
+    {
+      "id": "loop-settle",
+      "engine": "image",
+      "start_s": 34.7,
+      "end_s": 35.5,
+      "still_ref": "hook",
+      "still": "shots/01-hook-frame0.png",
+      "note": "dissolve back onto hook clip's own extracted frame0 (ingest_flow_asset.py --extract-frame0), not a separately-generated still"
+    }
+  ]
+}

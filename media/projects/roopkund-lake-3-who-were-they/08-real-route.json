@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Modern-day pilgrims walking single file along a high Himalayan mountain trail near a glacial lake, colorful banners and backpacks, generic figures seen from behind or at a distance with no visible faces, natural daylight, cinematic documentary photography, 9:16",
+    "notes": "Part 3 beat 8 (real-route), Google Flow manual export, picked as-is"
+  },
+  "source_file": "videos\\roopkund-lake-3-who-were-they\\assets\\Image 05.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-23T20:14:06"
+}

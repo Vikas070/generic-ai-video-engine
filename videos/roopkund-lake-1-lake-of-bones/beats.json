@@ -1,0 +1,891 @@
+{
+  "id": "roopkund-lake-1-lake-of-bones",
+  "title": "The Lake of Bones",
+  "series": "roopkund-lake",
+  "part": 1,
+  "partsTotal": 5,
+  "channel": "@TheMidnightThrillers",
+  "composition": "RoopkundEp1LakeOfBones",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 61.5
+  },
+  "voiceStatus": "elevenlabs:JBFqnCBsd6RMkjVDRZzb",
+  "notes": "Part 1/5 of Roopkund Lake, a standalone 5-part series (same shape as Dyatlov Pass, not an episode of any umbrella show). Windows are ~2.7wps estimates until gen_voice.py writes real times. EDITORIAL RULE (all 5 parts, same as Dyatlov Pass): no AI-generated likeness of H.K. Madhwal or any real named person presented as a documented portrait -- generic/back-turned figures only.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Roopkund",
+    "https://www.nature.com/articles/s41467-019-11357-9"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "5,029 meters up in the Himalayas... hundreds of human skeletons are frozen in time.",
+      "tts": "[measured, documentary] 5,029 meters up in the Himalayas... [grave] hundreds of human skeletons are frozen in time.",
+      "start": 0.3,
+      "end": 6.55,
+      "words": [
+        {
+          "w": "5,029",
+          "start": 0.631,
+          "end": 1.771
+        },
+        {
+          "w": "meters",
+          "start": 1.823,
+          "end": 2.138
+        },
+        {
+          "w": "up",
+          "start": 2.212,
+          "end": 2.359
+        },
+        {
+          "w": "in",
+          "start": 2.408,
+          "end": 2.506
+        },
+        {
+          "w": "the",
+          "start": 2.524,
+          "end": 2.579
+        },
+        {
+          "w": "Himalayas...",
+          "start": 2.628,
+          "end": 3.976
+        },
+        {
+          "w": "hundreds",
+          "start": 4.094,
+          "end": 4.421
+        },
+        {
+          "w": "of",
+          "start": 4.446,
+          "end": 4.495
+        },
+        {
+          "w": "human",
+          "start": 4.556,
+          "end": 4.862
+        },
+        {
+          "w": "skeletons",
+          "start": 4.914,
+          "end": 5.377
+        },
+        {
+          "w": "are",
+          "start": 5.414,
+          "end": 5.524
+        },
+        {
+          "w": "frozen",
+          "start": 5.588,
+          "end": 5.965
+        },
+        {
+          "w": "in",
+          "start": 5.99,
+          "end": 6.039
+        },
+        {
+          "w": "time.",
+          "start": 6.127,
+          "end": 6.554
+        }
+      ]
+    },
+    {
+      "beat": "no-names",
+      "text": "No names. No graves. No record of who they were.",
+      "tts": "[quiet, grave] No names. No graves. No record of who they were.",
+      "start": 6.6,
+      "end": 10.96,
+      "words": [
+        {
+          "w": "No",
+          "start": 6.795,
+          "end": 6.814
+        },
+        {
+          "w": "names.",
+          "start": 6.909,
+          "end": 7.741
+        },
+        {
+          "w": "No",
+          "start": 7.86,
+          "end": 8.098
+        },
+        {
+          "w": "graves.",
+          "start": 8.179,
+          "end": 8.668
+        },
+        {
+          "w": "No",
+          "start": 9.025,
+          "end": 9.738
+        },
+        {
+          "w": "record",
+          "start": 9.799,
+          "end": 10.166
+        },
+        {
+          "w": "of",
+          "start": 10.19,
+          "end": 10.237
+        },
+        {
+          "w": "who",
+          "start": 10.273,
+          "end": 10.38
+        },
+        {
+          "w": "they",
+          "start": 10.422,
+          "end": 10.593
+        },
+        {
+          "w": "were.",
+          "start": 10.65,
+          "end": 10.95
+        }
+      ]
+    },
+    {
+      "beat": "discovery",
+      "text": "In 1942, a colonial-era forest ranger stumbled onto the horror first.",
+      "tts": "[measured] In 1942, a colonial-era forest ranger stumbled onto the horror first.",
+      "start": 11.0,
+      "end": 15.65,
+      "words": [
+        {
+          "w": "In",
+          "start": 11.058,
+          "end": 11.067
+        },
+        {
+          "w": "1942,",
+          "start": 11.135,
+          "end": 12.348
+        },
+        {
+          "w": "a",
+          "start": 12.415,
+          "end": 12.483
+        },
+        {
+          "w": "colonial-era",
+          "start": 12.527,
+          "end": 13.224
+        },
+        {
+          "w": "forest",
+          "start": 13.282,
+          "end": 13.628
+        },
+        {
+          "w": "ranger",
+          "start": 13.686,
+          "end": 14.033
+        },
+        {
+          "w": "stumbled",
+          "start": 14.092,
+          "end": 14.572
+        },
+        {
+          "w": "onto",
+          "start": 14.612,
+          "end": 14.774
+        },
+        {
+          "w": "the",
+          "start": 14.791,
+          "end": 14.841
+        },
+        {
+          "w": "horror",
+          "start": 14.88,
+          "end": 15.111
+        },
+        {
+          "w": "first.",
+          "start": 15.201,
+          "end": 15.65
+        }
+      ]
+    },
+    {
+      "beat": "false-lead",
+      "text": "At first, he thought it was a Japanese army unit lost in the war.",
+      "tts": "[measured] At first, he thought it was a Japanese army unit lost in the war.",
+      "start": 15.7,
+      "end": 19.69,
+      "words": [
+        {
+          "w": "At",
+          "start": 15.839,
+          "end": 15.86
+        },
+        {
+          "w": "first,",
+          "start": 15.927,
+          "end": 16.5
+        },
+        {
+          "w": "he",
+          "start": 16.58,
+          "end": 16.74
+        },
+        {
+          "w": "thought",
+          "start": 16.76,
+          "end": 16.9
+        },
+        {
+          "w": "it",
+          "start": 16.953,
+          "end": 17.06
+        },
+        {
+          "w": "was",
+          "start": 17.08,
+          "end": 17.14
+        },
+        {
+          "w": "a",
+          "start": 17.18,
+          "end": 17.22
+        },
+        {
+          "w": "Japanese",
+          "start": 17.282,
+          "end": 17.78
+        },
+        {
+          "w": "army",
+          "start": 17.86,
+          "end": 18.18
+        },
+        {
+          "w": "unit",
+          "start": 18.26,
+          "end": 18.58
+        },
+        {
+          "w": "lost",
+          "start": 18.676,
+          "end": 19.06
+        },
+        {
+          "w": "in",
+          "start": 19.087,
+          "end": 19.14
+        },
+        {
+          "w": "the",
+          "start": 19.18,
+          "end": 19.3
+        },
+        {
+          "w": "war.",
+          "start": 19.4,
+          "end": 19.7
+        }
+      ]
+    },
+    {
+      "beat": "preserved",
+      "text": "But when the ice melted that summer, he found something stranger — flesh, hair, even skin, still preserved.",
+      "tts": "[measured] But when the ice melted that summer, he found something stranger — [quiet, unsettled] flesh, hair, even skin, still preserved.",
+      "start": 21.4,
+      "end": 28.85,
+      "words": [
+        {
+          "w": "But",
+          "start": 21.507,
+          "end": 21.526
+        },
+        {
+          "w": "when",
+          "start": 21.552,
+          "end": 21.653
+        },
+        {
+          "w": "the",
+          "start": 21.684,
+          "end": 21.779
+        },
+        {
+          "w": "ice",
+          "start": 21.826,
+          "end": 21.968
+        },
+        {
+          "w": "melted",
+          "start": 22.013,
+          "end": 22.284
+        },
+        {
+          "w": "that",
+          "start": 22.322,
+          "end": 22.473
+        },
+        {
+          "w": "summer,",
+          "start": 22.51,
+          "end": 23.168
+        },
+        {
+          "w": "he",
+          "start": 23.21,
+          "end": 23.294
+        },
+        {
+          "w": "found",
+          "start": 23.336,
+          "end": 23.547
+        },
+        {
+          "w": "something",
+          "start": 23.578,
+          "end": 23.862
+        },
+        {
+          "w": "stranger",
+          "start": 23.911,
+          "end": 24.304
+        },
+        {
+          "w": "—",
+          "start": 24.778,
+          "end": 25.251
+        },
+        {
+          "w": "flesh,",
+          "start": 25.586,
+          "end": 25.693
+        },
+        {
+          "w": "hair,",
+          "start": 25.819,
+          "end": 26.325
+        },
+        {
+          "w": "even",
+          "start": 26.489,
+          "end": 27.145
+        },
+        {
+          "w": "skin,",
+          "start": 27.246,
+          "end": 27.966
+        },
+        {
+          "w": "still",
+          "start": 28.008,
+          "end": 28.219
+        },
+        {
+          "w": "preserved.",
+          "start": 28.275,
+          "end": 28.85
+        }
+      ]
+    },
+    {
+      "beat": "scale",
+      "text": "This wasn't ten bodies. It wasn't fifty. As many as 800 people lie here.",
+      "tts": "[grave] This wasn't ten bodies. It wasn't fifty. [tense] As many as 800 people lie here.",
+      "start": 28.9,
+      "end": 35.06,
+      "words": [
+        {
+          "w": "This",
+          "start": 29.028,
+          "end": 29.06
+        },
+        {
+          "w": "wasn't",
+          "start": 29.108,
+          "end": 29.38
+        },
+        {
+          "w": "ten",
+          "start": 29.46,
+          "end": 29.7
+        },
+        {
+          "w": "bodies.",
+          "start": 29.757,
+          "end": 30.18
+        },
+        {
+          "w": "It",
+          "start": 30.42,
+          "end": 30.9
+        },
+        {
+          "w": "wasn't",
+          "start": 30.948,
+          "end": 31.22
+        },
+        {
+          "w": "fifty.",
+          "start": 31.3,
+          "end": 31.78
+        },
+        {
+          "w": "As",
+          "start": 32.807,
+          "end": 32.82
+        },
+        {
+          "w": "many",
+          "start": 32.884,
+          "end": 33.14
+        },
+        {
+          "w": "as",
+          "start": 33.167,
+          "end": 33.22
+        },
+        {
+          "w": "800",
+          "start": 33.38,
+          "end": 33.94
+        },
+        {
+          "w": "people",
+          "start": 33.997,
+          "end": 34.34
+        },
+        {
+          "w": "lie",
+          "start": 34.4,
+          "end": 34.58
+        },
+        {
+          "w": "here.",
+          "start": 34.66,
+          "end": 35.06
+        }
+      ]
+    },
+    {
+      "beat": "map",
+      "text": "Roopkund sits on a route to nowhere — no village, no road, no reason for a crowd this size to be here.",
+      "tts": "[measured, documentary] Roopkund sits on a route to nowhere — no village, no road, no reason for a crowd this size to be here.",
+      "start": 35.4,
+      "end": 43.07,
+      "words": [
+        {
+          "w": "Roopkund",
+          "start": 35.473,
+          "end": 35.881
+        },
+        {
+          "w": "sits",
+          "start": 35.961,
+          "end": 36.281
+        },
+        {
+          "w": "on",
+          "start": 36.308,
+          "end": 36.361
+        },
+        {
+          "w": "a",
+          "start": 36.401,
+          "end": 36.441
+        },
+        {
+          "w": "route",
+          "start": 36.508,
+          "end": 36.841
+        },
+        {
+          "w": "to",
+          "start": 36.894,
+          "end": 37.001
+        },
+        {
+          "w": "nowhere",
+          "start": 37.071,
+          "end": 37.561
+        },
+        {
+          "w": "—",
+          "start": 37.921,
+          "end": 38.281
+        },
+        {
+          "w": "no",
+          "start": 38.361,
+          "end": 38.521
+        },
+        {
+          "w": "village,",
+          "start": 38.571,
+          "end": 39.321
+        },
+        {
+          "w": "no",
+          "start": 39.401,
+          "end": 39.561
+        },
+        {
+          "w": "road,",
+          "start": 39.657,
+          "end": 40.521
+        },
+        {
+          "w": "no",
+          "start": 40.601,
+          "end": 40.761
+        },
+        {
+          "w": "reason",
+          "start": 40.818,
+          "end": 41.161
+        },
+        {
+          "w": "for",
+          "start": 41.201,
+          "end": 41.321
+        },
+        {
+          "w": "a",
+          "start": 41.361,
+          "end": 41.401
+        },
+        {
+          "w": "crowd",
+          "start": 41.468,
+          "end": 41.801
+        },
+        {
+          "w": "this",
+          "start": 41.833,
+          "end": 41.961
+        },
+        {
+          "w": "size",
+          "start": 42.041,
+          "end": 42.361
+        },
+        {
+          "w": "to",
+          "start": 42.388,
+          "end": 42.441
+        },
+        {
+          "w": "be",
+          "start": 42.521,
+          "end": 42.681
+        },
+        {
+          "w": "here.",
+          "start": 42.745,
+          "end": 43.081
+        }
+      ]
+    },
+    {
+      "beat": "wound",
+      "text": "And every single skull bears the exact same wound.",
+      "tts": "[grave, slow] And every single skull bears the exact same wound.",
+      "start": 43.6,
+      "end": 47.46,
+      "words": [
+        {
+          "w": "And",
+          "start": 43.718,
+          "end": 43.735
+        },
+        {
+          "w": "every",
+          "start": 43.803,
+          "end": 44.14
+        },
+        {
+          "w": "single",
+          "start": 44.208,
+          "end": 44.613
+        },
+        {
+          "w": "skull",
+          "start": 44.692,
+          "end": 45.086
+        },
+        {
+          "w": "bears",
+          "start": 45.21,
+          "end": 45.829
+        },
+        {
+          "w": "the",
+          "start": 45.863,
+          "end": 45.964
+        },
+        {
+          "w": "exact",
+          "start": 46.054,
+          "end": 46.504
+        },
+        {
+          "w": "same",
+          "start": 46.599,
+          "end": 46.977
+        },
+        {
+          "w": "wound.",
+          "start": 47.045,
+          "end": 47.45
+        }
+      ]
+    },
+    {
+      "beat": "struck",
+      "text": "Short. Deep. Round. Struck from directly above.",
+      "tts": "[tense, clipped] Short. Deep. Round. [ominous] Struck from directly above.",
+      "start": 47.5,
+      "end": 52.06,
+      "words": [
+        {
+          "w": "Short.",
+          "start": 47.873,
+          "end": 48.006
+        },
+        {
+          "w": "Deep.",
+          "start": 48.121,
+          "end": 49.017
+        },
+        {
+          "w": "Round.",
+          "start": 49.089,
+          "end": 49.522
+        },
+        {
+          "w": "Struck",
+          "start": 50.651,
+          "end": 50.822
+        },
+        {
+          "w": "from",
+          "start": 50.866,
+          "end": 51.039
+        },
+        {
+          "w": "directly",
+          "start": 51.087,
+          "end": 51.472
+        },
+        {
+          "w": "above.",
+          "start": 51.556,
+          "end": 52.05
+        }
+      ]
+    },
+    {
+      "beat": "cliffhanger",
+      "text": "Something rained down on these people from the sky itself. What was it? Find out in Part 2.",
+      "tts": "[tense] Something rained down on these people from the sky itself. [curious] What was it? [hook] Find out in Part 2.",
+      "start": 52.1,
+      "end": 59.13,
+      "words": [
+        {
+          "w": "Something",
+          "start": 52.41,
+          "end": 52.5
+        },
+        {
+          "w": "rained",
+          "start": 52.58,
+          "end": 52.9
+        },
+        {
+          "w": "down",
+          "start": 52.948,
+          "end": 53.14
+        },
+        {
+          "w": "on",
+          "start": 53.167,
+          "end": 53.22
+        },
+        {
+          "w": "these",
+          "start": 53.247,
+          "end": 53.38
+        },
+        {
+          "w": "people",
+          "start": 53.426,
+          "end": 53.7
+        },
+        {
+          "w": "from",
+          "start": 53.732,
+          "end": 53.86
+        },
+        {
+          "w": "the",
+          "start": 53.9,
+          "end": 54.02
+        },
+        {
+          "w": "sky",
+          "start": 54.1,
+          "end": 54.34
+        },
+        {
+          "w": "itself.",
+          "start": 54.431,
+          "end": 55.58
+        },
+        {
+          "w": "What",
+          "start": 56.308,
+          "end": 56.34
+        },
+        {
+          "w": "was",
+          "start": 56.4,
+          "end": 56.58
+        },
+        {
+          "w": "it?",
+          "start": 56.66,
+          "end": 57.3
+        },
+        {
+          "w": "Find",
+          "start": 57.956,
+          "end": 58.02
+        },
+        {
+          "w": "out",
+          "start": 58.08,
+          "end": 58.26
+        },
+        {
+          "w": "in",
+          "start": 58.313,
+          "end": 58.42
+        },
+        {
+          "w": "Part",
+          "start": 58.468,
+          "end": 58.66
+        },
+        {
+          "w": "2.",
+          "start": 58.82,
+          "end": 59.14
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "image",
+      "start_s": 0,
+      "end_s": 6.6,
+      "prompt": "Aerial drone shot soaring over jagged snow-capped Himalayan peaks toward a small turquoise glacial lake nestled in a rocky bowl, thin mist, golden-hour light, no people, hyperrealistic 8k cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/01-hook.png",
+      "variant": 0,
+      "note": "frame 0 fully composed -- this exact still is also the loop target (reused by beat 10's title card + tail)"
+    },
+    {
+      "id": "no-names",
+      "engine": "image",
+      "start_s": 6.6,
+      "end_s": 11.0,
+      "prompt": "Extreme close-up of a bleached human skull half-submerged in shallow icy water, weathered bones scattered on a rocky shore, no other people, moody overcast lighting, cinematic realism, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/02-no-names.png",
+      "variant": 1
+    },
+    {
+      "id": "discovery",
+      "engine": "image",
+      "start_s": 11.0,
+      "end_s": 15.7,
+      "prompt": "1940s-era Indian forest ranger in a worn colonial-period uniform, seen from behind or at a distance with face not visible, trekking through deep snow, discovering scattered bones half-buried in melting ice, vintage film grain, cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/03-discovery.png",
+      "variant": 2,
+      "note": "editorial rule: generic/anonymized figure only -- never a claimed likeness of the real H.K. Madhwal"
+    },
+    {
+      "id": "false-lead",
+      "engine": "image",
+      "start_s": 15.7,
+      "end_s": 21.4,
+      "prompt": "Wide drone shot showing dozens of skeletal remains scattered across a rocky lakebed, snow-capped peaks in the background, no people, desaturated cinematic documentary tone, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/04-false-lead.png",
+      "variant": 3
+    },
+    {
+      "id": "preserved",
+      "engine": "image",
+      "start_s": 21.4,
+      "end_s": 28.9,
+      "prompt": "Close-up of preserved frozen flesh and hair still clinging to bone fragments in ice, unsettling clinical detail, no gore, cinematic realism, documentary tone, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/05-preserved.png",
+      "variant": 1
+    },
+    {
+      "id": "scale",
+      "engine": "image",
+      "start_s": 28.9,
+      "end_s": 35.4,
+      "prompt": "Wide aerial shot revealing the true scale of a lakebed covered in scattered human skeletal remains, snow peaks towering above, no people, cinematic scale, documentary photography, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/06-scale.png",
+      "variant": 0
+    },
+    {
+      "id": "map",
+      "engine": "tsx",
+      "start_s": 35.4,
+      "end_s": 43.6,
+      "component": "RoopkundMapZoom",
+      "note": "reuses lib/map.tsx real projection data; camera settles on Roopkund's real coordinates (30.2622N, 79.7317E) inside India"
+    },
+    {
+      "id": "wound",
+      "engine": "image",
+      "start_s": 43.6,
+      "end_s": 47.5,
+      "prompt": "Forensic close-up illustration of a cracked human skull with a short, deep, circular fracture on the crown, clinical lighting, medical-documentary style, no other people, 9:16",
+      "still": "projects/roopkund-lake-1-lake-of-bones/08-wound.png",
+      "variant": 1,
+      "note": "series-wide recurring motif -- same still reused at each future part's midpoint per source script's production notes"
+    },
+    {
+      "id": "struck",
+      "engine": "image",
+      "start_s": 47.5,
+      "end_s": 52.1,
+      "still": "projects/roopkund-lake-1-lake-of-bones/08-wound.png",
+      "variant": 4,
+      "note": "reuses beat 8's still with a tighter push-in Ken Burns variant -- no second generation"
+    },
+    {
+      "id": "cliffhanger",
+      "engine": "tsx",
+      "start_s": 52.1,
+      "end_s": 61.5,
+      "component": "PartTitleCard",
+      "note": "bold title card over the hook's lake still (projects/roopkund-lake-1-lake-of-bones/01-hook.png); VO ends at 58.0s, leaving a ~3s silent tail so captions clear (0.8s hold) and the title fades out before the beat ends, matching frame 0 for the loop"
+    }
+  ]
+}

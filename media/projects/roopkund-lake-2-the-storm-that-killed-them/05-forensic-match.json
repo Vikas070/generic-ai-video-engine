@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Extreme close-up, forensic science setting: gloved hands carefully examining a weathered human skull fragment on a lab table, a cricket ball placed beside it for scale. Clinical overhead lighting, shallow depth of field, slow rack focus from the ball to the fracture on the bone. No face or person visible — hands and instruments only. Documentary tone, vertical 9:16.",
+    "notes": "Google Flow, hand-picked still frame; beat: forensic-match -- no depiction of Subhash Walimbe or any named scientist"
+  },
+  "source_file": "videos\\roopkund-lake-2-the-storm-that-killed-them\\assets\\Image 05.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-22T18:37:57"
+}

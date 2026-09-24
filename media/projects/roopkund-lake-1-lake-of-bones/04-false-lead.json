@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Wide drone shot, dozens of skeletal remains scattered across rocky lakebed, snow peaks background",
+    "notes": "Flow, Nano Banana, beat: false-lead"
+  },
+  "source_file": "videos\\roopkund-lake-1-lake-of-bones\\assets\\Image 04.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-21T16:21:01"
+}

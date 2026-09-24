@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Wide atmospheric shot of a snow-covered mountain slope at dusk, blue-hour light, a single small tent barely visible far in the distance, no people, no faces, vast empty wilderness, calm documentary photography style, 9:16",
+    "notes": "Generated in Google Flow; user picked this variant out of 4 candidates (cool blue twilight, distant tent, starkest match to the vast-wilderness framing)"
+  },
+  "source_file": "videos\\dyatlov-pass-1-expedition\\shots\\hook-flow-raw.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-10T19:37:43"
+}

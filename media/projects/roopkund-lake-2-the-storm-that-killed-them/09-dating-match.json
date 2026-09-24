@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Extreme close-up of a small ancient bone fragment held gently in a pair of tweezers over a lab tray, prepared for radiocarbon sampling. Clean clinical lighting, shallow depth of field, subtle slow-motion drift as the tweezers settle. No face or person visible. Documentary tone, vertical 9:16.",
+    "notes": "Google Flow, hand-picked still frame; beat: dating-match"
+  },
+  "source_file": "videos\\roopkund-lake-2-the-storm-that-killed-them\\assets\\Image 07.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-22T18:38:05"
+}

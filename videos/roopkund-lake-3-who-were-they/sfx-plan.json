@@ -1,0 +1,31 @@
+{
+  "master": "remotion/out/RoopkundEp3WhoWereThey-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/RoopkundEp3WhoWereThey-voiced.mp4",
+    "out": "videos/roopkund-lake-3-who-were-they/output/roopkund-lake-3-sfx.mp4",
+    "end_s": 61.5,
+    "duck": true
+  },
+  "events": [
+    { "at_s": 0.2,    "sfx_id": "wind-soft",        "gain_db": -6, "shot": "RoopkundEp3WhoWereThey", "cue": "hook: skeleton lakebed at dusk", "note": "atmosphere bed under the hook VO -- felt not heard" },
+    { "at_s": 5.9,    "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: hook -> rival-theories (bone + cloth close-up)" },
+    { "at_s": 10.9,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: rival-theories -> legend-recap (Part 2's legend still, reused)" },
+    { "at_s": 17.6,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: legend-recap -> forensic-return (lab trays)" },
+    { "at_s": 22.7,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: forensic-return -> two-groups (RoopkundTwoGroupsChart, tsx)" },
+    { "at_s": 23.7,   "sfx_id": "pop-reveal",       "gain_db": 4,  "shot": "RoopkundEp3WhoWereThey", "cue": "'AT LEAST TWO GROUPS' label fades in (RoopkundTwoGroupsChart labelP, local frame ~30)", "note": "same treatment as Part 1's map-pin-label reveal" },
+    { "at_s": 25.19,  "sfx_id": "riser-soft",       "gain_db": 1,  "shot": "RoopkundEp3WhoWereThey", "cue": "'robust and tall' (word start 25.185) builds into the second-group reveal", "note": "HERO 1 layer a" },
+    { "at_s": 26.674, "sfx_id": "impact-soft",      "gain_db": 2,  "shot": "RoopkundEp3WhoWereThey", "cue": "'Others' lands (word start 26.674) -- the second, smaller group reveal", "note": "HERO 1 layer b" },
+    { "at_s": 29.1,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: two-groups -> porters (highland guides on trail)" },
+    { "at_s": 34.1,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: porters -> wound (Part 1's reused fracture still)" },
+    { "at_s": 37.0,   "sfx_id": "riser-soft",       "gain_db": 1,  "shot": "RoopkundEp3WhoWereThey", "cue": "'Every skull carried the same' builds into the wound motif's return", "note": "HERO 2 layer a" },
+    { "at_s": 38.424, "sfx_id": "impact-deep-soft", "gain_db": 3,  "shot": "RoopkundEp3WhoWereThey", "cue": "'wound.' lands (word start 38.424) -- the series' recurring motif restated", "note": "HERO 2 layer b, this part's central emotional beat" },
+    { "at_s": 40.0,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: wound -> real-route (modern pilgrims, prayer flags)" },
+    { "at_s": 45.8,   "sfx_id": "whoosh-soft",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: real-route -> leading-theory (calm lakebed at dusk)" },
+    { "at_s": 50.3,   "sfx_id": "whoosh-wind",      "gain_db": -3, "shot": "RoopkundEp3WhoWereThey", "cue": "cut: leading-theory -> cliffhanger title card" },
+    { "at_s": 52.6,   "sfx_id": "riser-soft",       "gain_db": 1,  "shot": "RoopkundEp3WhoWereThey", "cue": "'tested by something no one' builds into the Part 4 tease", "note": "HERO 3 layer a, kept lighter than HERO 1/2 -- a tease, not a payoff" },
+    { "at_s": 54.129, "sfx_id": "impact-soft",      "gain_db": 2,  "shot": "RoopkundEp3WhoWereThey", "cue": "'coming.' lands (word start 54.129) -- the Part 4 tease", "note": "HERO 3 layer b" },
+    { "at_s": 60.0,   "sfx_id": "wind-soft",        "gain_db": -8, "optional": true, "shot": "RoopkundEp3WhoWereThey", "cue": "loop-settle: wind echoes the hook as it closes the loop", "note": "quiet bookend in the silent tail" }
+  ]
+}

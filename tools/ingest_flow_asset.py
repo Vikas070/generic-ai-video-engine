@@ -1,24 +1,28 @@
 #!/usr/bin/env python3
 """
-ingest_flow_asset.py — bring a manually-exported Google Flow clip into the repo's contract.
+ingest_flow_asset.py — bring a manually-exported Google Flow clip OR still into the repo's
+contract.
 
 Google Flow (labs.google/flow) has no public API — it is a UI on top of Veo (+ other Google
-models) that you drive by hand and export from by hand. This tool is the bridge: point it at
-a file you already downloaded from Flow's UI, and it normalizes that file into the SAME
-mp4 + sidecar.json contract gen_clip.py (fal) and gen_veo.py (official Veo API) produce, so
-a shot in beats.json never needs to know which of the three made it — only the sidecar's
-"provider" field differs, and this one is "google-flow-manual".
+models, including stills) that you drive by hand and export from by hand. This tool is the
+bridge: point it at a file you already downloaded from Flow's UI, and it normalizes that file
+into the SAME output contract gen_clip.py (fal) and gen_veo.py (official Veo API) produce for
+clips, and gen_image.py produces for stills — so a beat in beats.json never needs to know
+which tool made its asset, only the sidecar's "provider" field differs, and this one is
+"google-flow-manual".
 
-What it does:
-  1. Validates the source is a real, readable video (ffprobe).
-  2. Optionally normalizes it to the project spec (scale+crop to WxH, pad/convert fps) —
-     Flow's own export controls vary and don't always match 1080x1920@30.
+VIDEO or IMAGE is auto-detected from --out's extension (.mp4/.mov -> video, .png/.jpg/.jpeg ->
+image). What it does:
+  1. Validates the source is real and readable (ffprobe).
+  2. Optionally normalizes it to the project spec (scale+crop to fill WxH; video also
+     pads/converts fps) — Flow's own export controls vary and don't always match spec.
   3. Copies (never moves) the result into --out, so your Flow download stays untouched.
-  4. Optionally extracts frame 0 and/or the last frame as PNGs — for the loop-by-constraint
-     pattern (ai-shorts/IDEAS.md: pin the loop off the clip's TRUE first/last frame, never
-     the prompt image), the same discipline blue-man #1 used with Seedance's end_image_url.
+  4. VIDEO only: optionally extracts frame 0 and/or the last frame as PNGs — for the
+     loop-by-constraint pattern (ai-shorts/IDEAS.md: pin the loop off the clip's TRUE
+     first/last frame, never the prompt image), the same discipline blue-man #1 used with
+     Seedance's end_image_url.
   5. Writes a sidecar .json recording what you tell it (prompt/notes — Flow won't hand you
-     these back programmatically) plus the measured video facts (dims, fps, duration).
+     these back programmatically) plus the measured facts (dims, and for video: fps/duration).
 
 Usage:
   python tools/ingest_flow_asset.py --src ~/Downloads/flow_export.mp4 \\
@@ -29,18 +33,22 @@ Usage:
   python tools/ingest_flow_asset.py --src flow_export.mp4 --out shots/01-scene.mp4 \\
       --normalize --width 1080 --height 1920 --fps 30 --extract-frame0 --extract-lastframe
 
+  python tools/ingest_flow_asset.py --src ~/Downloads/flow_still.jpeg \\
+      --out media/projects/my-short/hook.png --normalize \\
+      --prompt "the prompt you typed into Flow" --notes "picked #2 of 4"
+
   --src PATH        the file you downloaded from Flow's UI (required)
-  --out PATH        destination mp4 inside the repo (required)
+  --out PATH        destination file inside the repo (required) — extension picks video vs image
   --prompt TEXT     the prompt you used in Flow (recorded for reproducibility/audit — Flow
                     gives you no API to read this back, so it only exists if you record it)
   --notes TEXT      anything else worth recording (take number, Flow model picked, edits made)
   --credits N       Flow spend is credits/subscription-based, not per-call $ like fal/Veo API;
                     record a credit count here if you're tracking it (optional, default null)
-  --normalize       re-encode to --width/--height/--fps via ffmpeg (scale+crop to fill, no
-                    letterbox) instead of just copying the source as-is
+  --normalize       re-encode to --width/--height (video also --fps) via ffmpeg (scale+crop to
+                    fill, no letterbox) instead of just copying the source as-is
   --width/--height/--fps   normalize target (defaults 1080x1920@30 — this repo's shorts spec)
-  --extract-frame0        write <out-without-ext>-frame0.png
-  --extract-lastframe     write <out-without-ext>-lastframe.png
+  --extract-frame0        VIDEO only: write <out-without-ext>-frame0.png
+  --extract-lastframe     VIDEO only: write <out-without-ext>-lastframe.png
   --dry-run          print what would happen, touch nothing
 
 Needs ffmpeg/ffprobe on PATH (already required repo-wide). No API key — this tool never
@@ -54,6 +62,7 @@ import sys
 import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp"}
 
 
 def get_arg(args, name, default=None):
@@ -115,6 +124,7 @@ def main():
     if not os.path.isfile(src):
         sys.exit(f"--src not found: {src}")
 
+    is_image = os.path.splitext(out)[1].lower() in IMAGE_EXTS
     prompt = get_arg(args, "--prompt")
     notes = get_arg(args, "--notes")
     credits_raw = get_arg(args, "--credits")
@@ -125,20 +135,26 @@ def main():
     fps = int(get_arg(args, "--fps", "30"))
     want_frame0 = "--extract-frame0" in args
     want_lastframe = "--extract-lastframe" in args
+    if is_image and (want_frame0 or want_lastframe):
+        sys.exit("--extract-frame0/--extract-lastframe are VIDEO only (--out has an image extension)")
     dry = "--dry-run" in args
 
     facts = ffprobe_facts(src)
-    print(f"source: {rel(src)}")
-    print(f"  {facts['width']}x{facts['height']} @{facts['fps']}fps  "
-          f"{facts['codec']}  {facts['duration_s']}s")
-    mismatch = normalize or facts["width"] != width or facts["height"] != height or \
-        abs(facts["fps"] - fps) > 0.1
+    print(f"source: {rel(src)}  [{'image' if is_image else 'video'}]")
+    if is_image:
+        print(f"  {facts['width']}x{facts['height']}")
+    else:
+        print(f"  {facts['width']}x{facts['height']} @{facts['fps']}fps  "
+              f"{facts['codec']}  {facts['duration_s']}s")
+    mismatch = facts["width"] != width or facts["height"] != height or \
+        (not is_image and abs(facts["fps"] - fps) > 0.1)
     if mismatch and not normalize:
-        print(f"  NOTE: source doesn't match {width}x{height}@{fps} -- pass --normalize to "
+        target = f"{width}x{height}" if is_image else f"{width}x{height}@{fps}"
+        print(f"  NOTE: source doesn't match {target} -- pass --normalize to "
               f"re-encode, or leave as-is if the composition handles it")
 
-    print(f"-> {rel(out)}" + ("  [normalize to "
-          f"{width}x{height}@{fps}]" if normalize else "  [copy as-is]"))
+    target_desc = f"{width}x{height}" if is_image else f"{width}x{height}@{fps}"
+    print(f"-> {rel(out)}" + (f"  [normalize to {target_desc}]" if normalize else "  [copy as-is]"))
     if want_frame0:
         print(f"-> {rel(os.path.splitext(out)[0] + '-frame0.png')}")
     if want_lastframe:
@@ -148,7 +164,14 @@ def main():
         return
 
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
-    if normalize:
+    if normalize and is_image:
+        run([
+            "ffmpeg", "-y", "-v", "error", "-i", src,
+            "-vf", f"scale={width}:{height}:force_original_aspect_ratio=increase,"
+                   f"crop={width}:{height}",
+            "-frames:v", "1", out,
+        ])
+    elif normalize:
         run([
             "ffmpeg", "-y", "-v", "error", "-i", src,
             "-vf", f"scale={width}:{height}:force_original_aspect_ratio=increase,"
@@ -158,9 +181,12 @@ def main():
         ])
     else:
         shutil.copy2(src, out)
-    print(f"video -> {rel(out)}  ({os.path.getsize(out)//1024}KB)")
+    kind = "image" if is_image else "video"
+    print(f"{kind} -> {rel(out)}  ({os.path.getsize(out)//1024}KB)")
 
     out_facts = ffprobe_facts(out)
+    if is_image:
+        out_facts = {"width": out_facts["width"], "height": out_facts["height"]}
     base = os.path.splitext(out)[0]
     frame0_path = None
     lastframe_path = None
@@ -177,7 +203,7 @@ def main():
     with open(sidecar, "w", encoding="utf-8") as f:
         json.dump({
             "provider": "google-flow-manual",
-            "model": "google-flow (Veo, UI-driven, no public API)",
+            "model": "google-flow (Veo/image, UI-driven, no public API)",
             "payload": {"prompt": prompt, "notes": notes},
             "source_file": rel(src),
             "normalized": normalize,

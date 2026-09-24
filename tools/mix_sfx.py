@@ -160,8 +160,16 @@ def main():
     else:
         parts.append("[0:a]aformat=sample_rates=48000:channel_layouts=stereo[v2]")
         parts.append("[v2][sfxraw]amix=inputs=2:normalize=0[mixraw]")
-    # gentle safety limiter so summed peaks never clip
-    parts.append("[mixraw]alimiter=level_in=1:level_out=1:limit=0.97[mix]")
+    # Safety limiter with true-peak headroom: limit=0.97 (~-0.27dBFS) leaves the encode
+    # step no margin — lossy AAC reconstruction commonly overshoots 0dBFS on inter-sample
+    # peaks even when the source PCM was under the limit, which read as audible crackle at
+    # the loudest cues (found via RMS/peak spot-checks during Dyatlov Pass part 3's SFX
+    # pass). ~-1dBTP (limit=0.891) is the usual streaming-safe margin.
+    # limit= alone barely moved the measured post-encode peak on short transients (alimiter's
+    # soft-knee response doesn't fully catch very brief peaks, and AAC reconstruction adds its
+    # own ~1dB+ overshoot on top) — level_out gives a flat, guaranteed gain trim AFTER limiting,
+    # which is what actually buys real headroom against lossy-encode overshoot.
+    parts.append("[mixraw]alimiter=level_in=1:level_out=0.7:limit=0.9[mix]")
 
     cmd += ["-filter_complex", ";".join(parts),
             "-map", "0:v:0", "-map", "[mix]",

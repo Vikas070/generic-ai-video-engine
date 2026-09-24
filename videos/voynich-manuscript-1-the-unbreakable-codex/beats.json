@@ -1,0 +1,170 @@
+{
+  "id": "voynich-manuscript-1-the-unbreakable-codex",
+  "title": "The Unbreakable Codex",
+  "series": "voynich-manuscript",
+  "part": 1,
+  "partsTotal": 5,
+  "channel": "@TheMidnightThrillers",
+  "composition": "VoynichEp1UnbreakableCodex",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 61.5
+  },
+  "voiceStatus": "elevenlabs:JBFqnCBsd6RMkjVDRZzb",
+  "notes": "Part 1/5 of Voynich Manuscript, a standalone 5-part series (same shape as Dyatlov Pass and Roopkund Lake, not an episode of any umbrella show). vo[] start/end below are ~2.7wps ESTIMATES until gen_voice.py writes real times. EDITORIAL RULE (all 5 parts): no AI-generated likeness of William Friedman, Wilfrid Voynich, or Rudolf II presented as a documented portrait -- generic/back-turned figures only.",
+  "sources": [
+    "https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript",
+    "https://en.wikipedia.org/wiki/Voynich_manuscript",
+    "https://news.yale.edu/2009/07/text"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "In a vault at Yale University sits a book six hundred years old. No one has ever read a single word of it.",
+      "tts": "[measured, documentary] In a vault at Yale University sits a book six hundred years old. [grave] No one has ever read a single word of it.",
+      "start": 0.3,
+      "end": 8.8
+    },
+    {
+      "beat": "stats",
+      "text": "Two hundred and forty pages. Nearly thirty-eight thousand words. Written in an alphabet that matches nothing else on Earth.",
+      "tts": "[measured, documentary] Two hundred and forty pages. Nearly thirty-eight thousand words. [quiet, unsettled] Written in an alphabet that matches nothing else on Earth.",
+      "start": 9.1,
+      "end": 16.1
+    },
+    {
+      "beat": "friedman-intro",
+      "text": "This man broke Japan's Purple cipher. He cracked Nazi codes that helped win World War Two.",
+      "tts": "[measured] This man broke Japan's Purple cipher. He cracked Nazi codes that helped win World War Two.",
+      "start": 16.4,
+      "end": 22.3
+    },
+    {
+      "beat": "friedman-fails",
+      "text": "For decades, he threw everything he had at this manuscript. He never solved a single sentence.",
+      "tts": "[measured, grave] For decades, he threw everything he had at this manuscript. He never solved a single sentence.",
+      "start": 22.6,
+      "end": 28.5
+    },
+    {
+      "beat": "modern-attempts",
+      "text": "Supercomputers have tried. Neural networks have tried. Every one of them has failed.",
+      "tts": "[measured, tense] Supercomputers have tried. Neural networks have tried. Every one of them has failed.",
+      "start": 28.8,
+      "end": 33.6
+    },
+    {
+      "beat": "illustrations-flora",
+      "text": "Its pages are covered in plants that don't exist anywhere in nature.",
+      "tts": "[quiet, unsettled] Its pages are covered in plants that don't exist anywhere in nature.",
+      "start": 33.9,
+      "end": 38.3
+    },
+    {
+      "beat": "illustrations-strange",
+      "text": "Women bathing in green liquid, laced with tubing. Stars in patterns no astronomer recognizes.",
+      "tts": "[quiet, unsettled] Women bathing in green liquid, laced with tubing. [grave] Stars in patterns no astronomer recognizes.",
+      "start": 38.6,
+      "end": 43.8
+    },
+    {
+      "beat": "still-unread",
+      "text": "In an age of satellites and artificial intelligence, this book remains completely, stubbornly unread.",
+      "tts": "[measured, documentary] In an age of satellites and artificial intelligence, [grave] this book remains completely, stubbornly unread.",
+      "start": 44.3,
+      "end": 49.5
+    },
+    {
+      "beat": "cliffhanger",
+      "text": "Lost science. A hidden code. Or history's most brilliant hoax. The truth starts in a secret library, in 1912. Part 2.",
+      "tts": "[tense] Lost science. A hidden code. Or history's most brilliant hoax. [curious] The truth starts in a secret library, in 1912. [hook] Part 2.",
+      "start": 50.0,
+      "end": 57.8
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "image",
+      "start_s": 0,
+      "end_s": 9.1,
+      "prompt": "Extreme macro close-up, push-in framing on an open 15th-century illuminated manuscript page. Dense, alien, cursive-like handwritten script fills the page in warm sepia-brown iron-gall ink, looping unfamiliar glyphs with no recognizable letterforms. The vellum is aged ivory-cream with visible fiber texture, faint mottling, and soft foxing spots at the edges. Warm golden-amber light from an off-frame archival reading lamp rakes across the page at a low angle, creating soft directional shadows in the ink strokes and a gentle vignette at the corners. Shallow depth of field, the top of the page falling into a soft warm blur. Fine grain, subtle film-like texture, muted parchment-gold and umber color palette. No people, no modern objects, no legible real-world text. Cinematic documentary photography, archival-restoration style, 9:16 vertical.",
+      "still": "projects/voynich-manuscript-1-the-unbreakable-codex/01-hook.png",
+      "variant": 0,
+      "note": "frame 0 fully composed -- this exact still is also the loop target and the cliffhanger title-card background"
+    },
+    {
+      "id": "stats",
+      "engine": "tsx",
+      "start_s": 9.1,
+      "end_s": 16.4,
+      "component": "VoynichStatsReveal"
+    },
+    {
+      "id": "friedman-intro",
+      "engine": "image",
+      "start_s": 16.4,
+      "end_s": 22.6,
+      "prompt": "Wide-to-medium cinematic shot, a 1940s American military cryptologist's office at night. A man in a period-correct dark wool suit and tie is seen ONLY from behind or in silhouette/three-quarter rear angle -- face never visible, features indistinct. He sits at a heavy wooden desk stacked with coded telegram sheets, punch cards, and a black manual typewriter. A single brass banker's lamp with a green glass shade casts a warm amber pool of light across the papers, the rest of the room falling into cool blue-grey shadow. Faint cigarette smoke curls in the lamplight. Wood-paneled walls, a dusty venetian-blind window in the background with faint moonlight. Grainy, desaturated vintage film-stock look, subtle sepia-and-slate color grade, soft vignette. No other people, no visible face, no legible readable text. Cinematic documentary re-enactment photography, 9:16 vertical.",
+      "still": "projects/voynich-manuscript-1-the-unbreakable-codex/03-friedman-intro.png",
+      "variant": 1,
+      "note": "editorial rule: generic/anonymized figure only -- never a claimed likeness of the real William Friedman"
+    },
+    {
+      "id": "friedman-fails",
+      "engine": "image",
+      "start_s": 22.6,
+      "end_s": 28.8,
+      "prompt": "Tighter, lower-angle shot of the same unnamed 1940s cryptologist, still faceless/back-turned, now hunched forward with visible tension in his shoulders -- one hand pressed to his temple, the other resting on a chaotic spread of crumpled and scattered coded papers across the desk. The brass banker's lamp's amber light now feels tighter and warmer, throwing longer shadows across the mess of papers; the background falls into near-total darkness. A half-empty coffee cup and an overflowing ashtray sit at the desk's edge. Same vintage film-grain, sepia-and-slate color grade as the companion shot, for visual continuity. Mood: exhaustion, obsession, defeat. No visible face, no other people, no legible readable text on the papers. Cinematic documentary re-enactment photography, 9:16 vertical.",
+      "still": "projects/voynich-manuscript-1-the-unbreakable-codex/04-friedman-fails.png",
+      "variant": 2,
+      "note": "editorial rule: generic/anonymized figure only -- never a claimed likeness of the real William Friedman"
+    },
+    {
+      "id": "modern-attempts",
+      "engine": "image",
+      "start_s": 28.8,
+      "end_s": 33.9,
+      "prompt": "Extreme close-up on a modern computer monitor glowing in an otherwise pitch-dark room. The screen fills most of the frame, displaying dense scrolling walls of garbled cipher-like glyphs, statistical bar graphs, and fragmented neural-network visualizations in a cool cyan-and-teal monochrome palette, evoking real-time failed decryption attempts. Faint screen glow reflects off out-of-focus objects at the frame edges -- perhaps the silhouette of a keyboard -- never a visible face or hand. A thin haze of dust catches the light near the screen. Slight chromatic aberration and subtle scanline texture for a tech-thriller documentary feel. Cool blue-green color grade, deliberately contrasting with the warm sepia of the historical beats. Cinematic tech-thriller photography, shallow depth of field, 9:16 vertical.",
+      "still": "projects/voynich-manuscript-1-the-unbreakable-codex/05-modern-attempts.png",
+      "variant": 0
+    },
+    {
+      "id": "illustrations-flora",
+      "engine": "image",
+      "start_s": 33.9,
+      "end_s": 38.6,
+      "prompt": "Extreme macro close-up of a single illuminated-manuscript botanical illustration, painted directly onto aged cream vellum with visible parchment grain and faint water staining at the edges. The plant is anatomically impossible -- a bulbous, alien root system in muted ochre and burnt-sienna ink blooms into mismatched leaves in faded sage-green and a cluster of small blossoms in dusty rose, none matching any real species. Fine hand-drawn ink outlines in warm sepia-brown, with hand-applied natural pigment washes that have faded unevenly over centuries, leaving soft bleeding edges. Subtle cracks and pinholes in the vellum are visible under raking light. Warm archival lighting, soft directional shadow from the upper left. Painted in the flat, symbolic style of a genuine 15th-century European herbal manuscript -- no photorealism, no modern rendering. No people. Macro still-life photography of a historical artifact, 9:16 vertical.",
+      "still": "projects/voynich-manuscript-1-the-unbreakable-codex/06-illustrations-flora.png",
+      "variant": 1
+    },
+    {
+      "id": "illustrations-strange",
+      "engine": "image",
+      "start_s": 38.6,
+      "end_s": 44.3,
+      "prompt": "Illuminated-manuscript page illustration in a flat, symbolic 15th-century herbal-manuscript art style -- hand-painted ink and natural pigment on aged cream vellum, visible parchment texture and faint foxing. Small, simplified, abstract human silhouettes (rendered as flat stylized shapes with no realistic anatomy, no facial detail, no explicit content) sit inside a network of interconnected pale-green pools, linked by winding pipe-like vessels rendered in the same hand-drawn ink line work. In the lower portion of the composition, a separate small circular diagram shows an unfamiliar zodiac-like arrangement of stars and symbols in faded indigo and ochre ink, radiating from a central point. Warm archival lighting from the upper left, soft natural pigment washes in muted sage-green, dusty rose, and faded indigo against the warm parchment-gold background. Subtle aging: hairline cracks, small ink smudges, uneven fading. No modern rendering, no photorealism, no explicit or graphic content -- purely a historical art-reference illustration. 9:16 vertical.",
+      "still": "projects/voynich-manuscript-1-the-unbreakable-codex/07-illustrations-strange.png",
+      "variant": 0
+    },
+    {
+      "id": "still-unread",
+      "engine": "image",
+      "start_s": 44.3,
+      "end_s": 50.0,
+      "prompt": "Wide establishing shot inside a dim, modern climate-controlled archive vault at night. A closed antique leather-bound manuscript rests on a velvet-lined angled book stand inside a glass display case at the center of the frame, its aged brown leather cover catching a soft warm archival spotlight from directly above. The surrounding vault falls into cool blue-grey shadow -- rows of shelving and other archival boxes are visible but out of focus in the background, faint red standby lights blink on unseen security equipment. Fine dust motes drift visibly in the spotlight beam. The color grade splits deliberately: warm amber-gold light on the manuscript itself against a cool, clinical blue-grey environment, symbolizing an old mystery inside a modern institution. No people, no readable signage. Cinematic documentary photography, slow push-in framing, shallow depth of field, 9:16 vertical.",
+      "still": "projects/voynich-manuscript-1-the-unbreakable-codex/08-still-unread.png",
+      "variant": 3
+    },
+    {
+      "id": "cliffhanger",
+      "engine": "tsx",
+      "start_s": 50.0,
+      "end_s": 61.5,
+      "component": "PartTitleCard",
+      "note": "bold title card over the hook's manuscript still (projects/voynich-manuscript-1-the-unbreakable-codex/01-hook.png); VO ends at 57.8s, leaving a ~3.7s silent tail so captions clear and the title fades out before the beat ends, matching frame 0 for the loop"
+    }
+  ]
+}

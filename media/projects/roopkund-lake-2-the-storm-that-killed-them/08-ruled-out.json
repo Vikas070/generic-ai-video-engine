@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Wide aerial shot slowly rising over scattered human skeletal remains across a rocky lakebed, calm pale-grey aftermath light, snow peaks towering above in the distance. No people anywhere in frame. Slow, steady drone-style ascent revealing the scale of the site. Desaturated, cinematic documentary tone, vertical 9:16.",
+    "notes": "Google Flow, hand-picked still frame; beat: ruled-out"
+  },
+  "source_file": "videos\\roopkund-lake-2-the-storm-that-killed-them\\assets\\Image 06.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-22T18:38:05"
+}

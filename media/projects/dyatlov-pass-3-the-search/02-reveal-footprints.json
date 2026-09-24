@@ -1,0 +1,21 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Slow low-angle tracking shot gliding just above a line of footprints in deep snow, following them across a wide open slope toward a lone bare cedar tree standing on the horizon. Two or three search-party figures in period winter coats walk along the footprints ahead in the distance, small in frame, backs to camera, too far and too obscured for any face to be visible -- generic, unidentifiable silhouettes, not specific individuals. Overcast winter light, muted grey-blue tones. Wide documentary framing, camera glides forward smoothly and steadily, no shake. 9:16 vertical.",
+    "notes": "Google Flow, Veo 3.1 model, generated at 1080x1920 24fps, reveal beat for dyatlov-pass-3"
+  },
+  "source_file": "C:/Users/vikas/Downloads/Figures_walking_in_deep_snow_20260918132722.mp4",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "codec": "h264",
+    "duration_s": 8.0
+  },
+  "frame0": "media\\projects\\dyatlov-pass-3-the-search\\02-reveal-footprints-frame0.png",
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-18T13:29:59"
+}

@@ -1,0 +1,480 @@
+{
+  "id": "dyatlov-pass-1-expedition",
+  "title": "The Expedition",
+  "series": "dyatlov-pass",
+  "part": 1,
+  "partsTotal": 5,
+  "composition": "DyatlovEp1Expedition",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 32.5
+  },
+  "voiceStatus": "elevenlabs:JBFqnCBsd6RMkjVDRZzb",
+  "notes": "Part 1/5 of the Dyatlov Pass series. Windows are 2.7wps estimates until gen_voice.py writes real times. EDITORIAL RULE (all 5 parts): no AI-generated faces/likenesses of the real named victims -- atmosphere and a real computed map only.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "Nine people camped on a mountain with no name. None of them came home.",
+      "tts": "[calm, grave] Nine people camped on a mountain with no name. [quiet] None of them came home.",
+      "start": 0.3,
+      "end": 5.96,
+      "words": [
+        {
+          "w": "Nine",
+          "start": 1.623,
+          "end": 1.862
+        },
+        {
+          "w": "people",
+          "start": 1.901,
+          "end": 2.15
+        },
+        {
+          "w": "camped",
+          "start": 2.19,
+          "end": 2.449
+        },
+        {
+          "w": "on",
+          "start": 2.479,
+          "end": 2.538
+        },
+        {
+          "w": "a",
+          "start": 2.578,
+          "end": 2.598
+        },
+        {
+          "w": "mountain",
+          "start": 2.658,
+          "end": 2.986
+        },
+        {
+          "w": "with",
+          "start": 3.036,
+          "end": 3.165
+        },
+        {
+          "w": "no",
+          "start": 3.215,
+          "end": 3.334
+        },
+        {
+          "w": "name.",
+          "start": 3.394,
+          "end": 3.802
+        },
+        {
+          "w": "None",
+          "start": 4.836,
+          "end": 4.995
+        },
+        {
+          "w": "of",
+          "start": 5.015,
+          "end": 5.065
+        },
+        {
+          "w": "them",
+          "start": 5.095,
+          "end": 5.194
+        },
+        {
+          "w": "came",
+          "start": 5.244,
+          "end": 5.423
+        },
+        {
+          "w": "home.",
+          "start": 5.453,
+          "end": 5.95
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "January 1959. Ten students from the Ural Polytechnic Institute set out to ski across the northern Urals, led by Igor Dyatlov.",
+      "tts": "[measured, documentary] January 1959. Ten students from the Ural Polytechnic Institute set out to ski across the northern Urals, led by Igor Dyatlov.",
+      "start": 6.0,
+      "end": 14.91,
+      "words": [
+        {
+          "w": "January",
+          "start": 7.321,
+          "end": 7.663
+        },
+        {
+          "w": "1959.",
+          "start": 7.698,
+          "end": 8.606
+        },
+        {
+          "w": "Ten",
+          "start": 9.073,
+          "end": 9.271
+        },
+        {
+          "w": "students",
+          "start": 9.334,
+          "end": 9.639
+        },
+        {
+          "w": "from",
+          "start": 9.666,
+          "end": 9.765
+        },
+        {
+          "w": "the",
+          "start": 9.792,
+          "end": 9.846
+        },
+        {
+          "w": "Ural",
+          "start": 9.909,
+          "end": 10.125
+        },
+        {
+          "w": "Polytechnic",
+          "start": 10.169,
+          "end": 10.645
+        },
+        {
+          "w": "Institute",
+          "start": 10.69,
+          "end": 11.212
+        },
+        {
+          "w": "set",
+          "start": 11.347,
+          "end": 11.518
+        },
+        {
+          "w": "out",
+          "start": 11.553,
+          "end": 11.652
+        },
+        {
+          "w": "to",
+          "start": 11.679,
+          "end": 11.733
+        },
+        {
+          "w": "ski",
+          "start": 11.787,
+          "end": 11.976
+        },
+        {
+          "w": "across",
+          "start": 12.021,
+          "end": 12.236
+        },
+        {
+          "w": "the",
+          "start": 12.272,
+          "end": 12.326
+        },
+        {
+          "w": "northern",
+          "start": 12.38,
+          "end": 12.632
+        },
+        {
+          "w": "Urals,",
+          "start": 12.686,
+          "end": 13.179
+        },
+        {
+          "w": "led",
+          "start": 13.341,
+          "end": 13.485
+        },
+        {
+          "w": "by",
+          "start": 13.53,
+          "end": 13.629
+        },
+        {
+          "w": "Igor",
+          "start": 13.692,
+          "end": 13.961
+        },
+        {
+          "w": "Dyatlov.",
+          "start": 14.006,
+          "end": 14.95
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "One of them, Yuri Yudin, fell ill early and turned back. It's the only reason he's alive today.",
+      "tts": "[measured] One of them, Yuri Yudin, fell ill early and turned back. [reflective] It's the only reason he's alive today.",
+      "start": 15.0,
+      "end": 22.16,
+      "words": [
+        {
+          "w": "One",
+          "start": 15.444,
+          "end": 15.569
+        },
+        {
+          "w": "of",
+          "start": 15.599,
+          "end": 15.641
+        },
+        {
+          "w": "them,",
+          "start": 15.692,
+          "end": 15.992
+        },
+        {
+          "w": "Yuri",
+          "start": 16.096,
+          "end": 16.405
+        },
+        {
+          "w": "Yudin,",
+          "start": 16.477,
+          "end": 16.943
+        },
+        {
+          "w": "fell",
+          "start": 17.015,
+          "end": 17.221
+        },
+        {
+          "w": "ill",
+          "start": 17.284,
+          "end": 17.459
+        },
+        {
+          "w": "early",
+          "start": 17.531,
+          "end": 17.8
+        },
+        {
+          "w": "and",
+          "start": 17.851,
+          "end": 17.934
+        },
+        {
+          "w": "turned",
+          "start": 17.976,
+          "end": 18.234
+        },
+        {
+          "w": "back.",
+          "start": 18.286,
+          "end": 18.73
+        },
+        {
+          "w": "It's",
+          "start": 20.125,
+          "end": 20.311
+        },
+        {
+          "w": "the",
+          "start": 20.342,
+          "end": 20.414
+        },
+        {
+          "w": "only",
+          "start": 20.466,
+          "end": 20.631
+        },
+        {
+          "w": "reason",
+          "start": 20.693,
+          "end": 20.91
+        },
+        {
+          "w": "he's",
+          "start": 20.962,
+          "end": 21.086
+        },
+        {
+          "w": "alive",
+          "start": 21.117,
+          "end": 21.417
+        },
+        {
+          "w": "today.",
+          "start": 21.448,
+          "end": 22.15
+        }
+      ]
+    },
+    {
+      "beat": "payoff",
+      "text": "On February 1st, the remaining nine pitched their tent on the slope of Kholat Syakhl — Dead Mountain, in the local Mansi language.",
+      "tts": "[grave, slow] On February 1st, the remaining nine pitched their tent on the slope of Kholat Syakhl — [quiet] Dead Mountain, in the local Mansi language.",
+      "start": 22.2,
+      "end": 31.66,
+      "words": [
+        {
+          "w": "On",
+          "start": 23.721,
+          "end": 23.872
+        },
+        {
+          "w": "February",
+          "start": 23.941,
+          "end": 24.313
+        },
+        {
+          "w": "1st,",
+          "start": 24.394,
+          "end": 24.859
+        },
+        {
+          "w": "the",
+          "start": 24.94,
+          "end": 25.033
+        },
+        {
+          "w": "remaining",
+          "start": 25.091,
+          "end": 25.486
+        },
+        {
+          "w": "nine",
+          "start": 25.567,
+          "end": 25.846
+        },
+        {
+          "w": "pitched",
+          "start": 25.892,
+          "end": 26.171
+        },
+        {
+          "w": "their",
+          "start": 26.205,
+          "end": 26.356
+        },
+        {
+          "w": "tent",
+          "start": 26.403,
+          "end": 26.67
+        },
+        {
+          "w": "on",
+          "start": 26.716,
+          "end": 26.786
+        },
+        {
+          "w": "the",
+          "start": 26.821,
+          "end": 26.89
+        },
+        {
+          "w": "slope",
+          "start": 26.937,
+          "end": 27.239
+        },
+        {
+          "w": "of",
+          "start": 27.274,
+          "end": 27.32
+        },
+        {
+          "w": "Kholat",
+          "start": 27.39,
+          "end": 27.703
+        },
+        {
+          "w": "Syakhl",
+          "start": 27.761,
+          "end": 28.144
+        },
+        {
+          "w": "—",
+          "start": 28.272,
+          "end": 28.469
+        },
+        {
+          "w": "Dead",
+          "start": 29.34,
+          "end": 29.549
+        },
+        {
+          "w": "Mountain,",
+          "start": 29.619,
+          "end": 30.211
+        },
+        {
+          "w": "in",
+          "start": 30.234,
+          "end": 30.35
+        },
+        {
+          "w": "the",
+          "start": 30.385,
+          "end": 30.455
+        },
+        {
+          "w": "local",
+          "start": 30.49,
+          "end": 30.757
+        },
+        {
+          "w": "Mansi",
+          "start": 30.815,
+          "end": 31.151
+        },
+        {
+          "w": "language.",
+          "start": 31.209,
+          "end": 31.999
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "image",
+      "start_s": 0,
+      "end_s": 6.0,
+      "prompt": "Wide atmospheric shot of a snow-covered mountain slope at dusk, blue-hour light, a single small tent barely visible far in the distance, no people, no faces, vast empty wilderness, calm documentary photography style, 9:16",
+      "variant": 0,
+      "note": "frame 0 fully composed -- this exact still is also the loop target"
+    },
+    {
+      "id": "setup",
+      "engine": "tsx",
+      "start_s": 6.0,
+      "end_s": 15.0,
+      "component": "UralMapZoom",
+      "note": "reuses lib/map.tsx real projection data; camera settles on Kholat Syakhl's real coordinates (61.75N, 59.45E)"
+    },
+    {
+      "id": "reveal",
+      "engine": "tsx",
+      "start_s": 15.0,
+      "end_s": 22.2,
+      "component": "TenToNineCard",
+      "note": "stat card: 10 -> 9, label 'Yuri Yudin -- turned back'"
+    },
+    {
+      "id": "payoff",
+      "engine": "image",
+      "start_s": 22.2,
+      "end_s": 31.66,
+      "prompt": "A single small tent pitched on an open snow slope at blue hour, dwarfed by the surrounding mountain, no people visible, calm documentary photography style, 9:16",
+      "variant": 3
+    },
+    {
+      "id": "loop-settle",
+      "engine": "image",
+      "start_s": 31.66,
+      "end_s": 32.5,
+      "still_ref": "hook",
+      "note": "dissolve back onto the hook's exact still via loopSettleScene()"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Forensic science wide shot: several human bone fragments laid out in labeled trays on a lab table, gloved hands sorting them, clinical overhead lighting, shallow depth of field, no face visible, documentary tone, 9:16",
+    "notes": "Part 3 beat 4 (forensic-return), Google Flow manual export, picked as-is"
+  },
+  "source_file": "videos\\roopkund-lake-3-who-were-they\\assets\\Image 03.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-23T20:14:02"
+}

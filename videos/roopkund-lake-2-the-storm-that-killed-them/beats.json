@@ -1,0 +1,942 @@
+{
+  "id": "roopkund-lake-2-the-storm-that-killed-them",
+  "title": "The Storm That Killed Them",
+  "series": "roopkund-lake",
+  "part": 2,
+  "partsTotal": 5,
+  "channel": "@TheMidnightThrillers",
+  "composition": "RoopkundEp2TheStorm",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 63.0
+  },
+  "voiceStatus": "elevenlabs:JBFqnCBsd6RMkjVDRZzb",
+  "notes": "Part 2/5 of Roopkund Lake, continuing directly from Part 1's cliffhanger ('what killed them?'). Retimed once after gen_voice.py flagged 'forensic-match' and 'wound' as OVERFLOW (real speech needed more room than the ~2.5wps estimate even at the 1.3x tempo cap); every beat from 'trap' onward pushed later per the repo's VO retiming procedure (push the gap, don't --force re-bill), durationSec extended 58.5->63.0 to give the cliffhanger a proper trailing tail. EDITORIAL RULE (all 5 parts, same as Part 1 and Dyatlov Pass): no AI-generated likeness of any real named person (incl. legendary/unverified figures Raja Jasdhaval and Rani Balampa, and real forensic scientist Subhash Walimbe) presented as a documented portrait -- generic/back-turned/faceless figures only. Cliffhanger deliberately does not claim the storm explains every skeleton at the site -- the 2019 DNA finding (>=2 death events ~1000 years apart) is reserved for Part 4.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Roopkund",
+    "https://en.wikipedia.org/wiki/Nanda_Devi_Raj_Jat",
+    "https://www.nature.com/articles/s41467-019-11357-9"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "Every skull at Roopkund carries the same wound. Scientists finally found out why.",
+      "tts": "[measured, documentary] Every skull at Roopkund carries the same wound. [grave] Scientists finally found out why.",
+      "start": 0,
+      "end": 5.46,
+      "words": [
+        {
+          "w": "Every",
+          "start": 0.276,
+          "end": 0.368
+        },
+        {
+          "w": "skull",
+          "start": 0.417,
+          "end": 0.663
+        },
+        {
+          "w": "at",
+          "start": 0.712,
+          "end": 0.81
+        },
+        {
+          "w": "Roopkund",
+          "start": 0.835,
+          "end": 1.326
+        },
+        {
+          "w": "carries",
+          "start": 1.372,
+          "end": 1.694
+        },
+        {
+          "w": "the",
+          "start": 1.712,
+          "end": 1.768
+        },
+        {
+          "w": "same",
+          "start": 1.841,
+          "end": 2.136
+        },
+        {
+          "w": "wound.",
+          "start": 2.197,
+          "end": 2.578
+        },
+        {
+          "w": "Scientists",
+          "start": 3.872,
+          "end": 4.051
+        },
+        {
+          "w": "finally",
+          "start": 4.106,
+          "end": 4.493
+        },
+        {
+          "w": "found",
+          "start": 4.541,
+          "end": 4.787
+        },
+        {
+          "w": "out",
+          "start": 4.824,
+          "end": 4.934
+        },
+        {
+          "w": "why.",
+          "start": 5.045,
+          "end": 5.45
+        }
+      ]
+    },
+    {
+      "beat": "legend",
+      "text": "Locals already had an answer -- an old song about a king who broke a sacred rule.",
+      "tts": "[quiet, storytelling] Locals already had an answer -- an old song about a king who broke a sacred rule.",
+      "start": 5.5,
+      "end": 10.93,
+      "words": [
+        {
+          "w": "Locals",
+          "start": 5.68,
+          "end": 5.98
+        },
+        {
+          "w": "already",
+          "start": 6.02,
+          "end": 6.3
+        },
+        {
+          "w": "had",
+          "start": 6.36,
+          "end": 6.54
+        },
+        {
+          "w": "an",
+          "start": 6.567,
+          "end": 6.62
+        },
+        {
+          "w": "answer",
+          "start": 6.689,
+          "end": 7.1
+        },
+        {
+          "w": "--",
+          "start": 7.34,
+          "end": 7.82
+        },
+        {
+          "w": "an",
+          "start": 7.873,
+          "end": 7.98
+        },
+        {
+          "w": "old",
+          "start": 8.06,
+          "end": 8.3
+        },
+        {
+          "w": "song",
+          "start": 8.364,
+          "end": 8.62
+        },
+        {
+          "w": "about",
+          "start": 8.673,
+          "end": 8.94
+        },
+        {
+          "w": "a",
+          "start": 8.98,
+          "end": 9.02
+        },
+        {
+          "w": "king",
+          "start": 9.1,
+          "end": 9.42
+        },
+        {
+          "w": "who",
+          "start": 9.46,
+          "end": 9.58
+        },
+        {
+          "w": "broke",
+          "start": 9.633,
+          "end": 9.9
+        },
+        {
+          "w": "a",
+          "start": 9.94,
+          "end": 9.98
+        },
+        {
+          "w": "sacred",
+          "start": 10.049,
+          "end": 10.46
+        },
+        {
+          "w": "rule.",
+          "start": 10.54,
+          "end": 10.94
+        }
+      ]
+    },
+    {
+      "beat": "offense",
+      "text": "Legend says Raja Jasdhaval brought music and dancing girls onto Nanda Devi's holy mountain.",
+      "tts": "[storytelling] Legend says Raja Jasdhaval brought music and dancing girls onto Nanda Devi's holy mountain.",
+      "start": 11.5,
+      "end": 16.96,
+      "words": [
+        {
+          "w": "Legend",
+          "start": 11.813,
+          "end": 11.863
+        },
+        {
+          "w": "says",
+          "start": 11.921,
+          "end": 12.154
+        },
+        {
+          "w": "Raja",
+          "start": 12.299,
+          "end": 12.735
+        },
+        {
+          "w": "Jasdhaval",
+          "start": 12.826,
+          "end": 13.389
+        },
+        {
+          "w": "brought",
+          "start": 13.426,
+          "end": 13.68
+        },
+        {
+          "w": "music",
+          "start": 13.753,
+          "end": 14.116
+        },
+        {
+          "w": "and",
+          "start": 14.152,
+          "end": 14.261
+        },
+        {
+          "w": "dancing",
+          "start": 14.316,
+          "end": 14.697
+        },
+        {
+          "w": "girls",
+          "start": 14.758,
+          "end": 15.061
+        },
+        {
+          "w": "onto",
+          "start": 15.148,
+          "end": 15.497
+        },
+        {
+          "w": "Nanda",
+          "start": 15.533,
+          "end": 15.86
+        },
+        {
+          "w": "Devi's",
+          "start": 15.915,
+          "end": 16.223
+        },
+        {
+          "w": "holy",
+          "start": 16.267,
+          "end": 16.441
+        },
+        {
+          "w": "mountain.",
+          "start": 16.498,
+          "end": 16.95
+        }
+      ]
+    },
+    {
+      "beat": "wrath",
+      "text": "The song says the goddess answered with hail \"hard as iron.\"",
+      "tts": "[grave] The song says the goddess answered with hail... [ominous] \"hard as iron.\"",
+      "start": 17.0,
+      "end": 21.46,
+      "words": [
+        {
+          "w": "The",
+          "start": 17.06,
+          "end": 17.074
+        },
+        {
+          "w": "song",
+          "start": 17.134,
+          "end": 17.371
+        },
+        {
+          "w": "says",
+          "start": 17.445,
+          "end": 17.742
+        },
+        {
+          "w": "the",
+          "start": 17.779,
+          "end": 17.89
+        },
+        {
+          "w": "goddess",
+          "start": 17.946,
+          "end": 18.335
+        },
+        {
+          "w": "answered",
+          "start": 18.384,
+          "end": 18.78
+        },
+        {
+          "w": "with",
+          "start": 18.81,
+          "end": 18.928
+        },
+        {
+          "w": "hail...",
+          "start": 19.032,
+          "end": 20.115
+        },
+        {
+          "w": "\"hard",
+          "start": 20.449,
+          "end": 20.56
+        },
+        {
+          "w": "as",
+          "start": 20.609,
+          "end": 20.708
+        },
+        {
+          "w": "iron.\"",
+          "start": 20.827,
+          "end": 21.45
+        }
+      ]
+    },
+    {
+      "beat": "forensic-match",
+      "text": "In 2004, forensic scientists matched the legend to the bones -- blunt wounds, cricket-ball size.",
+      "tts": "[measured, documentary] In 2004, forensic scientists matched the legend to the bones -- [grave] blunt wounds, cricket-ball size.",
+      "start": 21.5,
+      "end": 28.25,
+      "words": [
+        {
+          "w": "In",
+          "start": 21.613,
+          "end": 21.625
+        },
+        {
+          "w": "2004,",
+          "start": 21.688,
+          "end": 22.625
+        },
+        {
+          "w": "forensic",
+          "start": 22.666,
+          "end": 23.0
+        },
+        {
+          "w": "scientists",
+          "start": 23.057,
+          "end": 23.625
+        },
+        {
+          "w": "matched",
+          "start": 23.664,
+          "end": 23.938
+        },
+        {
+          "w": "the",
+          "start": 23.953,
+          "end": 24.0
+        },
+        {
+          "w": "legend",
+          "start": 24.045,
+          "end": 24.312
+        },
+        {
+          "w": "to",
+          "start": 24.354,
+          "end": 24.438
+        },
+        {
+          "w": "the",
+          "start": 24.453,
+          "end": 24.5
+        },
+        {
+          "w": "bones",
+          "start": 24.573,
+          "end": 24.938
+        },
+        {
+          "w": "--",
+          "start": 25.188,
+          "end": 25.688
+        },
+        {
+          "w": "blunt",
+          "start": 25.885,
+          "end": 25.938
+        },
+        {
+          "w": "wounds,",
+          "start": 26.0,
+          "end": 26.594
+        },
+        {
+          "w": "cricket-ball",
+          "start": 26.621,
+          "end": 27.0
+        },
+        {
+          "w": "size.",
+          "start": 27.087,
+          "end": 28.25
+        }
+      ]
+    },
+    {
+      "beat": "trap",
+      "text": "No trees, no shelter -- just bare rock in a bowl with nowhere to run.",
+      "tts": "[measured] No trees, no shelter -- [grave] just bare rock in a bowl with nowhere to run.",
+      "start": 28.3,
+      "end": 33.97,
+      "words": [
+        {
+          "w": "No",
+          "start": 28.447,
+          "end": 28.46
+        },
+        {
+          "w": "trees,",
+          "start": 28.567,
+          "end": 29.42
+        },
+        {
+          "w": "no",
+          "start": 29.5,
+          "end": 29.66
+        },
+        {
+          "w": "shelter",
+          "start": 29.72,
+          "end": 30.14
+        },
+        {
+          "w": "--",
+          "start": 30.433,
+          "end": 31.02
+        },
+        {
+          "w": "just",
+          "start": 31.217,
+          "end": 31.26
+        },
+        {
+          "w": "bare",
+          "start": 31.34,
+          "end": 31.66
+        },
+        {
+          "w": "rock",
+          "start": 31.74,
+          "end": 32.06
+        },
+        {
+          "w": "in",
+          "start": 32.087,
+          "end": 32.14
+        },
+        {
+          "w": "a",
+          "start": 32.18,
+          "end": 32.22
+        },
+        {
+          "w": "bowl",
+          "start": 32.3,
+          "end": 32.62
+        },
+        {
+          "w": "with",
+          "start": 32.668,
+          "end": 32.86
+        },
+        {
+          "w": "nowhere",
+          "start": 32.92,
+          "end": 33.34
+        },
+        {
+          "w": "to",
+          "start": 33.367,
+          "end": 33.42
+        },
+        {
+          "w": "run.",
+          "start": 33.54,
+          "end": 33.98
+        }
+      ]
+    },
+    {
+      "beat": "wound",
+      "text": "Short. Deep. Round. The same wound, skull after skull after skull.",
+      "tts": "[grave, clinical] Short. Deep. Round. [quiet] The same wound, skull after skull after skull.",
+      "start": 34.8,
+      "end": 40.45,
+      "words": [
+        {
+          "w": "Short.",
+          "start": 35.124,
+          "end": 35.239
+        },
+        {
+          "w": "Deep.",
+          "start": 35.365,
+          "end": 36.244
+        },
+        {
+          "w": "Round.",
+          "start": 36.307,
+          "end": 37.06
+        },
+        {
+          "w": "The",
+          "start": 37.547,
+          "end": 37.562
+        },
+        {
+          "w": "same",
+          "start": 37.625,
+          "end": 37.876
+        },
+        {
+          "w": "wound,",
+          "start": 37.929,
+          "end": 38.253
+        },
+        {
+          "w": "skull",
+          "start": 38.368,
+          "end": 38.943
+        },
+        {
+          "w": "after",
+          "start": 38.996,
+          "end": 39.257
+        },
+        {
+          "w": "skull",
+          "start": 39.33,
+          "end": 39.697
+        },
+        {
+          "w": "after",
+          "start": 39.749,
+          "end": 40.011
+        },
+        {
+          "w": "skull.",
+          "start": 40.073,
+          "end": 40.45
+        }
+      ]
+    },
+    {
+      "beat": "ruled-out",
+      "text": "No sword marks. No arrow wounds. Nothing below the shoulders -- only the sky reached them.",
+      "tts": "[measured, documentary] No sword marks. No arrow wounds. Nothing below the shoulders -- [grave] only the sky reached them.",
+      "start": 40.5,
+      "end": 46.47,
+      "words": [
+        {
+          "w": "No",
+          "start": 40.677,
+          "end": 40.694
+        },
+        {
+          "w": "sword",
+          "start": 40.748,
+          "end": 41.017
+        },
+        {
+          "w": "marks.",
+          "start": 41.082,
+          "end": 41.729
+        },
+        {
+          "w": "No",
+          "start": 41.836,
+          "end": 42.052
+        },
+        {
+          "w": "arrow",
+          "start": 42.106,
+          "end": 42.376
+        },
+        {
+          "w": "wounds.",
+          "start": 42.44,
+          "end": 42.893
+        },
+        {
+          "w": "Nothing",
+          "start": 42.99,
+          "end": 43.669
+        },
+        {
+          "w": "below",
+          "start": 43.701,
+          "end": 43.863
+        },
+        {
+          "w": "the",
+          "start": 43.895,
+          "end": 43.992
+        },
+        {
+          "w": "shoulders",
+          "start": 44.031,
+          "end": 44.38
+        },
+        {
+          "w": "--",
+          "start": 44.553,
+          "end": 44.898
+        },
+        {
+          "w": "only",
+          "start": 45.152,
+          "end": 45.221
+        },
+        {
+          "w": "the",
+          "start": 45.254,
+          "end": 45.351
+        },
+        {
+          "w": "sky",
+          "start": 45.448,
+          "end": 45.739
+        },
+        {
+          "w": "reached",
+          "start": 45.779,
+          "end": 46.062
+        },
+        {
+          "w": "them.",
+          "start": 46.101,
+          "end": 46.321
+        }
+      ]
+    },
+    {
+      "beat": "dating-match",
+      "text": "Radiocarbon dating placed the bones at exactly the era the old song describes: 850 A.D.",
+      "tts": "[measured, documentary] Radiocarbon dating placed the bones at exactly the era the old song describes: [quiet] 850 A.D.",
+      "start": 46.5,
+      "end": 52.45,
+      "words": [
+        {
+          "w": "Radiocarbon",
+          "start": 46.741,
+          "end": 47.169
+        },
+        {
+          "w": "dating",
+          "start": 47.226,
+          "end": 47.57
+        },
+        {
+          "w": "placed",
+          "start": 47.617,
+          "end": 47.904
+        },
+        {
+          "w": "the",
+          "start": 47.921,
+          "end": 47.971
+        },
+        {
+          "w": "bones",
+          "start": 48.038,
+          "end": 48.372
+        },
+        {
+          "w": "at",
+          "start": 48.394,
+          "end": 48.439
+        },
+        {
+          "w": "exactly",
+          "start": 48.489,
+          "end": 48.84
+        },
+        {
+          "w": "the",
+          "start": 48.873,
+          "end": 48.974
+        },
+        {
+          "w": "era",
+          "start": 49.057,
+          "end": 49.308
+        },
+        {
+          "w": "the",
+          "start": 49.341,
+          "end": 49.442
+        },
+        {
+          "w": "old",
+          "start": 49.508,
+          "end": 49.709
+        },
+        {
+          "w": "song",
+          "start": 49.749,
+          "end": 49.91
+        },
+        {
+          "w": "describes:",
+          "start": 49.97,
+          "end": 51.18
+        },
+        {
+          "w": "850",
+          "start": 51.768,
+          "end": 51.915
+        },
+        {
+          "w": "A.D.",
+          "start": 52.015,
+          "end": 52.45
+        }
+      ]
+    },
+    {
+      "beat": "cliffhanger",
+      "text": "The storm explains how they died. It doesn't explain who these hundreds of strangers were. Find out in Part 3.",
+      "tts": "[measured, documentary] The storm explains how they died. [grave] It doesn't explain who these hundreds of strangers were. [quiet] Find out in Part 3.",
+      "start": 52.5,
+      "end": 60.82,
+      "words": [
+        {
+          "w": "The",
+          "start": 52.572,
+          "end": 52.581
+        },
+        {
+          "w": "storm",
+          "start": 52.634,
+          "end": 52.901
+        },
+        {
+          "w": "explains",
+          "start": 52.963,
+          "end": 53.461
+        },
+        {
+          "w": "how",
+          "start": 53.501,
+          "end": 53.621
+        },
+        {
+          "w": "they",
+          "start": 53.669,
+          "end": 53.861
+        },
+        {
+          "w": "died.",
+          "start": 53.957,
+          "end": 54.741
+        },
+        {
+          "w": "It",
+          "start": 55.203,
+          "end": 55.221
+        },
+        {
+          "w": "doesn't",
+          "start": 55.261,
+          "end": 55.541
+        },
+        {
+          "w": "explain",
+          "start": 55.601,
+          "end": 56.021
+        },
+        {
+          "w": "who",
+          "start": 56.061,
+          "end": 56.181
+        },
+        {
+          "w": "these",
+          "start": 56.221,
+          "end": 56.421
+        },
+        {
+          "w": "hundreds",
+          "start": 56.474,
+          "end": 56.901
+        },
+        {
+          "w": "of",
+          "start": 56.928,
+          "end": 56.981
+        },
+        {
+          "w": "strangers",
+          "start": 57.029,
+          "end": 57.461
+        },
+        {
+          "w": "were.",
+          "start": 57.541,
+          "end": 58.501
+        },
+        {
+          "w": "Find",
+          "start": 59.193,
+          "end": 59.385
+        },
+        {
+          "w": "out",
+          "start": 59.465,
+          "end": 59.705
+        },
+        {
+          "w": "in",
+          "start": 59.785,
+          "end": 59.945
+        },
+        {
+          "w": "Part",
+          "start": 60.009,
+          "end": 60.265
+        },
+        {
+          "w": "3.",
+          "start": 60.425,
+          "end": 60.825
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "image",
+      "start_s": 0,
+      "end_s": 5.5,
+      "prompt": "Dark, ominous storm clouds boiling over a bowl-shaped Himalayan mountain valley, jagged snow-capped peaks ringing a small turquoise glacial lake far below, dramatic low light, no people, hyperrealistic 8k cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-2-the-storm-that-killed-them/01-hook.png",
+      "variant": 0,
+      "note": "frame 0 fully composed -- this exact still is also the loop target (reused by beat 10's title card + tail), this episode's OWN hook, distinct from Part 1's"
+    },
+    {
+      "id": "legend",
+      "engine": "image",
+      "start_s": 5.5,
+      "end_s": 11.5,
+      "prompt": "Wide shot of a high Himalayan mountain pass, a distant pilgrim procession with colorful banners winding along a narrow trail, figures small and generic seen from far away with no visible faces, golden late-afternoon light, cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-2-the-storm-that-killed-them/02-legend.png",
+      "variant": 1
+    },
+    {
+      "id": "offense",
+      "engine": "image",
+      "start_s": 11.5,
+      "end_s": 17.0,
+      "prompt": "Medieval Indian pilgrimage procession on a mountain trail, colorful robes and banners, torches, a suggestion of a dance troupe among the group, figures seen from behind or at a distance with faces not visible, warm torchlight, cinematic realism, 9:16",
+      "still": "projects/roopkund-lake-2-the-storm-that-killed-them/03-offense.png",
+      "variant": 2,
+      "note": "editorial rule: legend, not a documented historical record -- generic/anonymized figures only, never a claimed likeness of Raja Jasdhaval or Rani Balampa"
+    },
+    {
+      "id": "wrath",
+      "engine": "image",
+      "start_s": 17.0,
+      "end_s": 21.5,
+      "prompt": "Violent hailstorm breaking over a bowl-shaped Himalayan valley, sky gone dark and green-black, hail streaking down, small indistinct fleeing figures far below with no visible faces, dramatic cinematic documentary photography, 9:16",
+      "still": "projects/roopkund-lake-2-the-storm-that-killed-them/04-wrath.png",
+      "variant": 3
+    },
+    {
+      "id": "forensic-match",
+      "engine": "image",
+      "start_s": 21.5,
+      "end_s": 28.3,
+      "prompt": "Forensic science close-up: gloved hands examining a weathered human skull fragment on a lab table beside a cricket ball for scale, clinical overhead lighting, shallow depth of field, no face visible, documentary tone, 9:16",
+      "still": "projects/roopkund-lake-2-the-storm-that-killed-them/05-forensic-match.png",
+      "variant": 1,
+      "note": "no depiction of Subhash Walimbe or any named scientist -- hands/instruments/specimen only"
+    },
+    {
+      "id": "trap",
+      "engine": "tsx",
+      "start_s": 28.3,
+      "end_s": 34.8,
+      "component": "RoopkundTrapDiagram",
+      "note": "new lib/roopkund.tsx component -- schematic cross-section of the bowl-shaped valley (peaks ringing it, hail falling straight down, no escape route), not a map, no India-boundary concern"
+    },
+    {
+      "id": "wound",
+      "engine": "image",
+      "start_s": 34.8,
+      "end_s": 40.5,
+      "still": "projects/roopkund-lake-1-lake-of-bones/08-wound.png",
+      "variant": 4,
+      "note": "reuses Part 1's beat-8 still (no second generation) -- the series' recurring visual-thread motif"
+    },
+    {
+      "id": "ruled-out",
+      "engine": "image",
+      "start_s": 40.5,
+      "end_s": 46.5,
+      "prompt": "Wide aerial shot of scattered human skeletal remains across a rocky lakebed in calm aftermath light, snow peaks above, no people, desaturated cinematic documentary tone, 9:16",
+      "still": "projects/roopkund-lake-2-the-storm-that-killed-them/08-ruled-out.png",
+      "variant": 0
+    },
+    {
+      "id": "dating-match",
+      "engine": "image",
+      "start_s": 46.5,
+      "end_s": 52.5,
+      "prompt": "Close-up of a small ancient bone fragment held in tweezers over a lab tray for radiocarbon sampling, clinical lighting, shallow depth of field, no face visible, documentary tone, 9:16",
+      "still": "projects/roopkund-lake-2-the-storm-that-killed-them/09-dating-match.png",
+      "variant": 1
+    },
+    {
+      "id": "cliffhanger",
+      "engine": "tsx",
+      "start_s": 52.5,
+      "end_s": 63.0,
+      "component": "PartTitleCard",
+      "note": "bold title card over THIS episode's own hook still (projects/roopkund-lake-2-the-storm-that-killed-them/01-hook.png); VO ends with a short silent tail so captions clear and the title fades before the loop point"
+    }
+  ]
+}

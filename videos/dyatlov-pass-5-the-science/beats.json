@@ -1,0 +1,568 @@
+{
+  "id": "dyatlov-pass-5-the-science",
+  "title": "The Science",
+  "series": "dyatlov-pass",
+  "part": 5,
+  "partsTotal": 5,
+  "composition": "DyatlovEp5Science",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 34.6
+  },
+  "voiceStatus": "elevenlabs:JBFqnCBsd6RMkjVDRZzb",
+  "notes": "Part 5/5 -- the series finale. Windows are 2.7wps estimates until gen_voice.py writes real times. Hook/loop frame intentionally bookends part 1's hook composition.",
+  "sources": [
+    "https://www.nature.com/articles/s43247-020-00081-8",
+    "https://www.nature.com/articles/s43247-022-00393-x",
+    "https://www.nationalgeographic.com/premium/article/has-science-solved-history-greatest-adventure-mystery-dyatlov"
+  ],
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "For sixty years, people blamed the military. Or something stranger.",
+      "tts": "[measured] For sixty years, people blamed the military. [quiet] Or something stranger.",
+      "start": 0.3,
+      "end": 4.16,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.355,
+          "end": 0.364
+        },
+        {
+          "w": "sixty",
+          "start": 0.428,
+          "end": 0.749
+        },
+        {
+          "w": "years,",
+          "start": 0.803,
+          "end": 1.134
+        },
+        {
+          "w": "people",
+          "start": 1.171,
+          "end": 1.391
+        },
+        {
+          "w": "blamed",
+          "start": 1.437,
+          "end": 1.712
+        },
+        {
+          "w": "the",
+          "start": 1.728,
+          "end": 1.776
+        },
+        {
+          "w": "military.",
+          "start": 1.826,
+          "end": 2.289
+        },
+        {
+          "w": "Or",
+          "start": 3.159,
+          "end": 3.188
+        },
+        {
+          "w": "something",
+          "start": 3.22,
+          "end": 3.508
+        },
+        {
+          "w": "stranger.",
+          "start": 3.565,
+          "end": 4.15
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Secret weapons tests. Infrasound. Even something not human. None of it held up.",
+      "tts": "[measured, documentary] Secret weapons tests. Infrasound. Even something not human. [flat] None of it held up.",
+      "start": 4.2,
+      "end": 10.05,
+      "words": [
+        {
+          "w": "Secret",
+          "start": 4.475,
+          "end": 4.511
+        },
+        {
+          "w": "weapons",
+          "start": 4.558,
+          "end": 4.885
+        },
+        {
+          "w": "tests.",
+          "start": 4.947,
+          "end": 5.258
+        },
+        {
+          "w": "Infrasound.",
+          "start": 5.445,
+          "end": 6.316
+        },
+        {
+          "w": "Even",
+          "start": 6.44,
+          "end": 6.938
+        },
+        {
+          "w": "something",
+          "start": 6.976,
+          "end": 7.312
+        },
+        {
+          "w": "not",
+          "start": 7.358,
+          "end": 7.498
+        },
+        {
+          "w": "human.",
+          "start": 7.561,
+          "end": 7.872
+        },
+        {
+          "w": "None",
+          "start": 8.772,
+          "end": 8.805
+        },
+        {
+          "w": "of",
+          "start": 8.847,
+          "end": 8.93
+        },
+        {
+          "w": "it",
+          "start": 8.951,
+          "end": 8.992
+        },
+        {
+          "w": "held",
+          "start": 9.042,
+          "end": 9.241
+        },
+        {
+          "w": "up.",
+          "start": 9.324,
+          "end": 9.926
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "In 2021, engineers at ETH Zurich modeled the slope — and found something investigators never considered: a delayed slab avalanche.",
+      "tts": "[measured, documentary] In 2021, engineers at ETH Zurich modeled the slope -- and found something investigators never considered: a delayed slab avalanche.",
+      "start": 10.1,
+      "end": 17.96,
+      "words": [
+        {
+          "w": "In",
+          "start": 10.217,
+          "end": 10.228
+        },
+        {
+          "w": "2021,",
+          "start": 10.229,
+          "end": 11.194
+        },
+        {
+          "w": "engineers",
+          "start": 11.252,
+          "end": 11.773
+        },
+        {
+          "w": "at",
+          "start": 11.795,
+          "end": 11.837
+        },
+        {
+          "w": "ETH",
+          "start": 11.982,
+          "end": 12.416
+        },
+        {
+          "w": "Zurich",
+          "start": 12.481,
+          "end": 12.867
+        },
+        {
+          "w": "modeled",
+          "start": 12.907,
+          "end": 13.189
+        },
+        {
+          "w": "the",
+          "start": 13.205,
+          "end": 13.253
+        },
+        {
+          "w": "slope",
+          "start": 13.317,
+          "end": 13.639
+        },
+        {
+          "w": "--",
+          "start": 13.746,
+          "end": 13.961
+        },
+        {
+          "w": "and",
+          "start": 13.993,
+          "end": 14.089
+        },
+        {
+          "w": "found",
+          "start": 14.122,
+          "end": 14.282
+        },
+        {
+          "w": "something",
+          "start": 14.315,
+          "end": 14.604
+        },
+        {
+          "w": "investigators",
+          "start": 14.65,
+          "end": 15.248
+        },
+        {
+          "w": "never",
+          "start": 15.28,
+          "end": 15.441
+        },
+        {
+          "w": "considered:",
+          "start": 15.482,
+          "end": 16.47
+        },
+        {
+          "w": "a",
+          "start": 16.502,
+          "end": 16.534
+        },
+        {
+          "w": "delayed",
+          "start": 16.583,
+          "end": 16.92
+        },
+        {
+          "w": "slab",
+          "start": 16.998,
+          "end": 17.307
+        },
+        {
+          "w": "avalanche.",
+          "start": 17.364,
+          "end": 17.95
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Cutting the tent into the slope, plus wind-packed snow above it, could trigger a small, silent slide — enough force to break bone without leaving a mark.",
+      "tts": "[measured] Cutting the tent into the slope, plus wind-packed snow above it, could trigger a small, silent slide -- [grave, quiet] enough force to break bone without leaving a mark.",
+      "start": 18.0,
+      "end": 25.87,
+      "words": [
+        {
+          "w": "Cutting",
+          "start": 18.206,
+          "end": 18.249
+        },
+        {
+          "w": "the",
+          "start": 18.265,
+          "end": 18.312
+        },
+        {
+          "w": "tent",
+          "start": 18.361,
+          "end": 18.561
+        },
+        {
+          "w": "into",
+          "start": 18.611,
+          "end": 18.81
+        },
+        {
+          "w": "the",
+          "start": 18.841,
+          "end": 18.935
+        },
+        {
+          "w": "slope,",
+          "start": 18.987,
+          "end": 19.495
+        },
+        {
+          "w": "plus",
+          "start": 19.545,
+          "end": 19.744
+        },
+        {
+          "w": "wind-packed",
+          "start": 19.807,
+          "end": 20.305
+        },
+        {
+          "w": "snow",
+          "start": 20.355,
+          "end": 20.554
+        },
+        {
+          "w": "above",
+          "start": 20.596,
+          "end": 20.804
+        },
+        {
+          "w": "it,",
+          "start": 20.825,
+          "end": 21.177
+        },
+        {
+          "w": "could",
+          "start": 21.209,
+          "end": 21.364
+        },
+        {
+          "w": "trigger",
+          "start": 21.388,
+          "end": 21.551
+        },
+        {
+          "w": "a",
+          "start": 21.582,
+          "end": 21.613
+        },
+        {
+          "w": "small,",
+          "start": 21.676,
+          "end": 22.112
+        },
+        {
+          "w": "silent",
+          "start": 22.166,
+          "end": 22.486
+        },
+        {
+          "w": "slide",
+          "start": 22.558,
+          "end": 22.922
+        },
+        {
+          "w": "--",
+          "start": 23.13,
+          "end": 23.545
+        },
+        {
+          "w": "enough",
+          "start": 23.762,
+          "end": 23.794
+        },
+        {
+          "w": "force",
+          "start": 23.835,
+          "end": 24.043
+        },
+        {
+          "w": "to",
+          "start": 24.085,
+          "end": 24.168
+        },
+        {
+          "w": "break",
+          "start": 24.199,
+          "end": 24.355
+        },
+        {
+          "w": "bone",
+          "start": 24.43,
+          "end": 24.729
+        },
+        {
+          "w": "without",
+          "start": 24.775,
+          "end": 25.102
+        },
+        {
+          "w": "leaving",
+          "start": 25.134,
+          "end": 25.352
+        },
+        {
+          "w": "a",
+          "start": 25.383,
+          "end": 25.414
+        },
+        {
+          "w": "mark.",
+          "start": 25.489,
+          "end": 25.85
+        }
+      ]
+    },
+    {
+      "beat": "payoff",
+      "text": "No conspiracy. Just a mountain, doing what mountains do — on the night nine people happened to be sleeping beneath it.",
+      "tts": "[calm, reflective] No conspiracy. Just a mountain, doing what mountains do -- [quiet, slow] on the night nine people happened to be sleeping beneath it.",
+      "start": 25.9,
+      "end": 32.46,
+      "words": [
+        {
+          "w": "No",
+          "start": 26.045,
+          "end": 26.06
+        },
+        {
+          "w": "conspiracy.",
+          "start": 26.133,
+          "end": 26.86
+        },
+        {
+          "w": "Just",
+          "start": 27.036,
+          "end": 27.74
+        },
+        {
+          "w": "a",
+          "start": 27.78,
+          "end": 27.82
+        },
+        {
+          "w": "mountain,",
+          "start": 27.873,
+          "end": 28.38
+        },
+        {
+          "w": "doing",
+          "start": 28.46,
+          "end": 28.86
+        },
+        {
+          "w": "what",
+          "start": 28.908,
+          "end": 29.1
+        },
+        {
+          "w": "mountains",
+          "start": 29.148,
+          "end": 29.58
+        },
+        {
+          "w": "do",
+          "start": 29.687,
+          "end": 29.9
+        },
+        {
+          "w": "--",
+          "start": 30.3,
+          "end": 31.1
+        },
+        {
+          "w": "on",
+          "start": 31.249,
+          "end": 31.26
+        },
+        {
+          "w": "the",
+          "start": 31.28,
+          "end": 31.34
+        },
+        {
+          "w": "night",
+          "start": 31.393,
+          "end": 31.66
+        },
+        {
+          "w": "nine",
+          "start": 31.756,
+          "end": 32.14
+        },
+        {
+          "w": "people",
+          "start": 32.197,
+          "end": 32.54
+        },
+        {
+          "w": "happened",
+          "start": 32.584,
+          "end": 32.94
+        },
+        {
+          "w": "to",
+          "start": 32.967,
+          "end": 33.02
+        },
+        {
+          "w": "be",
+          "start": 33.047,
+          "end": 33.1
+        },
+        {
+          "w": "sleeping",
+          "start": 33.153,
+          "end": 33.58
+        },
+        {
+          "w": "beneath",
+          "start": 33.63,
+          "end": 33.98
+        },
+        {
+          "w": "it.",
+          "start": 34.033,
+          "end": 34.22
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "engine": "ai-video",
+      "provider": "google-flow-manual",
+      "start_s": 0,
+      "end_s": 4.2,
+      "prompt": "A slow, gentle push-in over a wide, calm snow-covered mountain slope at dawn. Soft warm golden light spilling across the snow, clear sky, utterly peaceful and still. No people, no tent, no faces, nothing moving except the faintest drift of fine snow catching the light. Steady, slow camera movement, no shake. Quiet, restrained documentary photography style, warm and calm -- the opposite mood of a blue, ominous dusk shot: this is resolution, not tension. Full-bleed 9:16 vertical, no letterboxing, no black bars, image fills the entire frame edge-to-edge.",
+      "clip": "shots/01-hook.mp4",
+      "note": "frame 0 fully composed -- intentionally echoes part 1's hook composition, calm instead of ominous; loop-settle dissolves onto this clip's OWN extracted frame0"
+    },
+    {
+      "id": "setup",
+      "engine": "tsx",
+      "start_s": 4.2,
+      "end_s": 10.1,
+      "component": "DebunkList",
+      "note": "list items crossed out in sequence: 'secret weapons test' / 'infrasound' / 'something not human'"
+    },
+    {
+      "id": "reveal",
+      "engine": "tsx",
+      "start_s": 10.1,
+      "end_s": 18.0,
+      "component": "SlopeDiagram",
+      "note": "new small niche component: cross-section of slope + tent cut into it + wind-loaded snow slab above, labeled, no drama"
+    },
+    {
+      "id": "twist",
+      "engine": "tsx",
+      "start_s": 18.0,
+      "end_s": 25.9,
+      "component": "SlopeDiagramRelease",
+      "note": "same diagram, animated: slab releases, small silent slide reaches the tent line, force arrows not gore"
+    },
+    {
+      "id": "payoff-loop",
+      "engine": "image",
+      "start_s": 25.9,
+      "end_s": 34.6,
+      "still_ref": "hook",
+      "still": "shots/01-hook-frame0.png",
+      "note": "dissolve onto the hook clip's own extracted frame0 -- series closes here, bookending part 1"
+    }
+  ]
+}

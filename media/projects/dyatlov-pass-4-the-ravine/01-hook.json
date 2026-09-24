@@ -1,0 +1,21 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "A slow, steady aerial-style descending shot looking down into a snow-filled ravine on a stark, treeless mountainside. Harsh flat overcast light, muted grey-white tones, no people, no faces, nothing moving except fine wind-blown snow drifting low across the surface. The camera drifts slowly downward and slightly forward, as if descending toward the ravine floor, revealing more of its scale and depth. Quiet, stark, clinical documentary photography style, restrained, not dramatic. Full-bleed 9:16 vertical, no letterboxing, no black bars, image fills the entire frame edge-to-edge.",
+    "notes": "Google Flow, Veo 3.1 model, 1080x1920 24fps, hook/loop beat for dyatlov-pass-4"
+  },
+  "source_file": "C:/Users/vikas/Downloads/Aerial_descent_into_snow_ravine_20260918181705.mp4",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "codec": "h264",
+    "duration_s": 8.0
+  },
+  "frame0": "media\\projects\\dyatlov-pass-4-the-ravine\\01-hook-frame0.png",
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-18T18:19:52"
+}

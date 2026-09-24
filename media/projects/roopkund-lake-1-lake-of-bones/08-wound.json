@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Forensic close-up: skull with short, deep, circular fracture on crown, clinical lighting",
+    "notes": "Flow, Nano Banana, beat: wound -- series-wide recurring motif"
+  },
+  "source_file": "videos\\roopkund-lake-1-lake-of-bones\\assets\\Image 07.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-21T16:21:03"
+}

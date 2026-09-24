@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Wide night shot, storm-lit snowy mountainside, heavy wind-blown snow, a small dim tent shape barely visible in the distance, no people, cold blue moonlight, 9:16",
+    "notes": "Generated in Google Flow; includes a dramatic lightning bolt not in the prompt, fits storm-lit framing well"
+  },
+  "source_file": "videos\\dyatlov-pass-2-the-tent\\shots\\Tent_in_snowy_mountainside_2K_20260910205924.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-10T21:08:15"
+}

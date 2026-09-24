@@ -65,3 +65,14 @@ IDEAS.md          the TSX-shorts idea bank + niche ranking
   apply unchanged to every provider in `ai-shorts/PROVIDERS.md`).
 - **QA is not optional:** render frames at phone scale and READ them before any full render —
   for a hybrid composition (`/make-video`), QA every engine boundary, not just one.
+- **Session hygiene:** one Claude Code session per episode/video, ending at that track's own
+  "Done" checklist — don't carry the next episode into the same conversation. Before ending,
+  write/update that project's memory (locked voice ID, series conventions, known bugs+fixes)
+  so a new session never has to replay old conversation to recover them.
+- **QA at scale:** checking more than ~3 frames? Tile them into one ffmpeg contact sheet
+  and read that single image instead of each frame separately — `ffmpeg -i f1.png -i f2.png
+  ... -filter_complex "xstack=inputs=N:grid=WxH" contact-sheet.png` (use `xstack`, not
+  `tile` — `tile` wants one multi-frame input stream, not N discrete `-i` files; `xstack`
+  takes them directly). Delegate mechanical verify-and-report passes (frame QA,
+  RMS/audibility checks, retiming convergence) to a subagent that returns a short summary;
+  keep creative decisions and spend approval inline with the user.

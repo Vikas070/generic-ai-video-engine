@@ -87,17 +87,20 @@ export const imageScene = (src: string, variant = 0): SceneRender => {
 
 // A plain TSX component — a chart, a board, a pause card, any niche-lib visual. This is
 // the actual "hybrid" half: code-drawn beats sit in the same track as video/image beats.
-// The component manages its own internal motion off useCurrentFrame() as normal; this
-// wrapper only handles the crossfade-in so it can enter under the previous scene's tail.
-export const tsxScene = (Component: React.FC): SceneRender => {
-  const Comp: SceneRender = ({ fadeIn }) => {
+// `dur`/`fadeIn` are passed through (Remotion's useVideoConfig() does NOT re-scope inside
+// a <Sequence>, so a component that needs its own scene length — to pace an animation
+// across the whole beat, the way PauseCard already takes a `durSec` prop — has no other
+// way to learn it). A component that only drives itself off useCurrentFrame() can ignore
+// both; TS structurally allows a narrower-arity component here.
+export const tsxScene = (Component: React.FC<{ dur: number; fadeIn: number }>): SceneRender => {
+  const Comp: SceneRender = ({ dur, fadeIn }) => {
     const frame = useCurrentFrame();
     const opacity = fadeIn > 0
       ? interpolate(frame, [0, fadeIn], [0, 1], { extrapolateRight: 'clamp' })
       : 1;
     return (
       <AbsoluteFill style={{ opacity }}>
-        <Component />
+        <Component dur={dur} fadeIn={fadeIn} />
       </AbsoluteFill>
     );
   };

@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "A single small tent pitched on an open snow slope at blue hour, dwarfed by the surrounding mountain, no people visible, calm documentary photography style, 9:16",
+    "notes": "Generated in Google Flow; close/medium tent shot with a dramatic peak looming behind and a pink/purple dusk sky"
+  },
+  "source_file": "videos\\dyatlov-pass-1-expedition\\shots\\Tent-on-snow-slope.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-10T19:37:49"
+}

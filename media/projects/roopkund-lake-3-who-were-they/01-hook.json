@@ -1,0 +1,18 @@
+{
+  "provider": "google-flow-manual",
+  "model": "google-flow (Veo/image, UI-driven, no public API)",
+  "payload": {
+    "prompt": "Contemplative wide shot of scattered human skeletal remains across a rocky Himalayan lakebed at dusk, muted blue-toned light, snow peaks silhouetted in the distance, no people, hyperrealistic 8k cinematic documentary photography, 9:16",
+    "notes": "Part 3 beat 1 (hook), Google Flow manual export, picked as-is"
+  },
+  "source_file": "videos\\roopkund-lake-3-who-were-they\\assets\\Image 01.jpeg",
+  "normalized": true,
+  "measured": {
+    "width": 1080,
+    "height": 1920
+  },
+  "frame0": null,
+  "lastframe": null,
+  "credits_spent": null,
+  "created": "2026-09-23T20:13:58"
+}

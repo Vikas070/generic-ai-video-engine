@@ -48,7 +48,7 @@ def load_env():
 
 
 def run(cmd):
-    r = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    r = subprocess.run(cmd, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
     if r.returncode != 0:
         sys.exit(f"command failed: {' '.join(cmd)}\n{r.stdout}")
     return r.stdout
